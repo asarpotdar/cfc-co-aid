@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App</string>
+
+    <string-array name="service_provider">
+        <item>Volunteer</item>
+        <item>Health Worker</item>
+    </string-array>
+</resources>
