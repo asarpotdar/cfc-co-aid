@@ -1,673 +1,11 @@
 {
   "intents": [
     {
-      "intent": "Covid_Cleaning_Disinfecting",
-      "examples": [
-        {
-          "text": "All the stores are out of disinfecting wipes, what do I do?"
-        },
-        {
-          "text": "Do I have to use bleach to kill coronavirus?"
-        },
-        {
-          "text": "Do I need lysol wipes?"
-        },
-        {
-          "text": "Does alcohol kill the coronavirus?"
-        },
-        {
-          "text": "How do I clean my home properly?"
-        },
-        {
-          "text": "how do i get rid of germs at my home"
-        },
-        {
-          "text": "Whats the difference between cleaning and disinfecting?"
-        },
-        {
-          "text": "What cleaning methods kill the coronavirus?"
-        },
-        {
-          "text": "Should I spray myself or my kids with disinfectant?"
-        },
-        {
-          "text": "How often do I need to clean my home to prevent the spread of coronavirus?"
-        },
-        {
-          "text": "Are there disinfectants available that can inactivate (kill) COVID-19?"
-        }
-      ],
-      "description": "How to clean and disinfect."
-    },
-    {
-      "intent": "Covid_Protecting_Against_Infection",
-      "examples": [
-        {
-          "text": "How do I avoid covid-19?"
-        },
-        {
-          "text": "hot to take precaution"
-        },
-        {
-          "text": "prevent the spread of the virus"
-        },
-        {
-          "text": "What is the risk of my child becoming sick with COVID-19?"
-        },
-        {
-          "text": "How can I protect my family from the spread of coronavirus?"
-        },
-        {
-          "text": "What’s the best way to prevent coronavirus?"
-        },
-        {
-          "text": "How to Prevent the Spread of the Virus"
-        },
-        {
-          "text": "Is it even possible to avoid the virus?"
-        },
-        {
-          "text": "Do I need to wear a face mask?"
-        },
-        {
-          "text": "what should i do to contain the spread of the virus"
-        },
-        {
-          "text": "How do I prevent myself from getting sick?"
-        },
-        {
-          "text": "How often should I wash my hands?"
-        },
-        {
-          "text": "How do I protect myself?"
-        },
-        {
-          "text": "how do I ensure my family is safe?"
-        }
-      ],
-      "description": "How to prevent infection."
-    },
-    {
-      "intent": "Covid_Description",
-      "examples": [
-        {
-          "text": "what is novel coronavirus?"
-        },
-        {
-          "text": "item"
-        },
-        {
-          "text": "How dangerous is this?"
-        },
-        {
-          "text": "Where did the coronavirus come from?"
-        },
-        {
-          "text": "what is the coronavirus?"
-        },
-        {
-          "text": "What is COVID-19?"
-        },
-        {
-          "text": "Is the coronavirus the same as SARS?"
-        },
-        {
-          "text": "Has the cause of COVID-19 been identified?"
-        },
-        {
-          "text": "How is COVID-19 spread?"
-        },
-        {
-          "text": "Is the coronavirus the same as a cold?"
-        },
-        {
-          "text": "Is the coronavirus the same as MERS?"
-        }
-      ],
-      "description": "Overview of Covid 19."
-    },
-    {
-      "intent": "Covid_School_Shutdown",
-      "examples": [
-        {
-          "text": "When will the schools open?"
-        },
-        {
-          "text": "Should my child stay home from school?"
-        },
-        {
-          "text": "are schools open?"
-        },
-        {
-          "text": "How will the shutdown impact my child's attendance records?"
-        },
-        {
-          "text": "How can I get the latest news on my school closure?"
-        },
-        {
-          "text": "Are schools shut down?"
-        },
-        {
-          "text": "What does the ordered school closure mean for report cards?"
-        },
-        {
-          "text": "Can my child go to school?"
-        },
-        {
-          "text": "Will students still graduate this year?"
-        },
-        {
-          "text": "What happens after the ordered three-week closure period ends?"
-        }
-      ],
-      "description": "Information on local schools."
-    },
-    {
-      "intent": "Covid_Testing_Results",
-      "examples": [
-        {
-          "text": "Its been a week. Who can I call to get my test results?"
-        },
-        {
-          "text": "How can I get my test results?"
-        },
-        {
-          "text": "Do my test results come in the mail?"
-        },
-        {
-          "text": "Who will give me my COVID test results?"
-        },
-        {
-          "text": "My doctor hasn't given me my test results back yet."
-        },
-        {
-          "text": "test outcomes?"
-        },
-        {
-          "text": "When can I get my results?"
-        }
-      ],
-      "description": "How to get Covid 19 test results."
-    },
-    {
-      "intent": "Covid_Case_Count",
-      "examples": [
-        {
-          "text": "Does the US have a confirmed COVID case?"
-        },
-        {
-          "text": "Are there any cases near me?"
-        },
-        {
-          "text": "covid number in my state?"
-        },
-        {
-          "text": "Does MA have a confirmed COVID case?"
-        },
-        {
-          "text": "how many people are infected in the us?"
-        },
-        {
-          "text": "How many coronavirus cases are there in my area?"
-        },
-        {
-          "text": "How many cases of COVID-19 are in the US?"
-        },
-        {
-          "text": "has anyone died of coronavirus in my state?"
-        },
-        {
-          "text": "How many cases of the virus are there in the world?"
-        },
-        {
-          "text": "how many people are sick in the US?"
-        },
-        {
-          "text": "is anyone near me sick"
-        },
-        {
-          "text": "i need"
-        },
-        {
-          "text": "what is the count of coronavirus infected people?"
-        },
-        {
-          "text": "Where are cases?"
-        }
-      ],
-      "description": "Information on number of Covid 19 cases."
-    },
-    {
-      "intent": "Covid_Travel_Restrictions",
-      "examples": [
-        {
-          "text": "Are there any travel restrictions in place yet?"
-        },
-        {
-          "text": "Can I travel?"
-        },
-        {
-          "text": "Do I need a doctor's note to travel?"
-        },
-        {
-          "text": "What if I urgently need to take a flight?"
-        },
-        {
-          "text": "Should I cancel my flight to Denver?"
-        },
-        {
-          "text": "Is it safe to fly to Seattle?"
-        },
-        {
-          "text": "I just travelled. What do I do?"
-        },
-        {
-          "text": "do i need to stay home"
-        }
-      ],
-      "description": "Information on travel during Covid 19 pandemic."
-    },
-    {
-      "intent": "supplies_needed",
-      "examples": [
-        {
-          "text": "Can I get an box of cereal",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                13,
-                26
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Who has some cleaning supplies",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                13,
-                30
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Who has fruits",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                8,
-                14
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Who has a bottle of hand sanitizer",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                20,
-                34
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Where can I get some clorox",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                21,
-                27
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Where can I get milk and eggs",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                16,
-                20
-              ]
-            },
-            {
-              "entity": "supplies",
-              "location": [
-                25,
-                29
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Where can I get a bag of rice",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                18,
-                29
-              ]
-            }
-          ]
-        },
-        {
-          "text": "What is the nearest location that has some batteries",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                43,
-                52
-              ]
-            }
-          ]
-        },
-        {
-          "text": "What is the nearest location that has disinfectant wipes",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                38,
-                56
-              ]
-            }
-          ]
-        },
-        {
-          "text": "What is the nearest location that has a gallon of milk",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                40,
-                54
-              ]
-            }
-          ]
-        },
-        {
-          "text": "What is the closest location that has some water bottles",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                43,
-                56
-              ]
-            }
-          ]
-        },
-        {
-          "text": "What is the closest location that has fruits",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                38,
-                44
-              ]
-            }
-          ]
-        },
-        {
-          "text": "What is the closest location that has apples or bananas",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                38,
-                44
-              ]
-            },
-            {
-              "entity": "supplies",
-              "location": [
-                48,
-                55
-              ]
-            }
-          ]
-        },
-        {
-          "text": "I want vegetables",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                7,
-                17
-              ]
-            }
-          ]
-        },
-        {
-          "text": "I want some canned food",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                12,
-                23
-              ]
-            }
-          ]
-        },
-        {
-          "text": "I want a bag of ice",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                9,
-                19
-              ]
-            }
-          ]
-        },
-        {
-          "text": "I need some toilet paper",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                12,
-                24
-              ]
-            }
-          ]
-        },
-        {
-          "text": "I need hand sanitizer",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                7,
-                21
-              ]
-            }
-          ]
-        },
-        {
-          "text": "I need a bag of ice",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                9,
-                19
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Does anyone have some canned vegetables",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                22,
-                39
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Does anyone have any paper towel",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                21,
-                32
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Does anyone have a mask",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                19,
-                23
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Can I get some gloves",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                15,
-                21
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Any Vegetable Vendor in nearby area"
-        },
-        {
-          "text": "Anyone supplying grocery items in my area"
-        },
-        {
-          "text": "I want Wheat Flour"
-        },
-        {
-          "text": "who can help me with dairy products"
-        },
-        {
-          "text": "Who can help me with grocery items"
-        },
-        {
-          "text": "Who can help me with Medicines"
-        },
-        {
-          "text": "Who can provide me Sugar"
-        },
-        {
-          "text": "who can supply Dairy Products"
-        },
-        {
-          "text": "Who can supply medicines"
-        },
-        {
-          "text": "Who has Grocery Items"
-        },
-        {
-          "text": "Anyone have a mask",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                14,
-                18
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Anyone have an xyz",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                15,
-                18
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Anyone have extra gloves",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                18,
-                24
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Anyone have some canned fruits",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                17,
-                30
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Can I get a gallon of milk",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                12,
-                26
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Can I get bread",
-          "mentions": [
-            {
-              "entity": "supplies",
-              "location": [
-                10,
-                15
-              ]
-            }
-          ]
-        }
-      ],
-      "description": "supply or services residents in need of"
-    },
-    {
       "intent": "General_About_You",
       "examples": [
+        {
+          "text": "Who are you?"
+        },
         {
           "text": "Where were you born?"
         },
@@ -724,186 +62,16 @@
         },
         {
           "text": "Why are you here?"
-        },
-        {
-          "text": "Who are you?"
         }
       ],
       "description": "Request generic personal attributes."
     },
     {
-      "intent": "Covid_Testing_Locations",
-      "examples": [
-        {
-          "text": "Can I get tested at my doctors?"
-        },
-        {
-          "text": "testing spots for coronavirus?"
-        },
-        {
-          "text": "Can I get tested at Walgreens?"
-        },
-        {
-          "text": "Can I test myself at my house?"
-        },
-        {
-          "text": "How do I get tested?"
-        },
-        {
-          "text": "testing locations?"
-        },
-        {
-          "text": "Where can I get tested?"
-        }
-      ],
-      "description": "Where to get tested for Covid 19."
-    },
-    {
-      "intent": "volunteer_help",
-      "examples": [
-        {
-          "text": "Any volunteer in my area"
-        },
-        {
-          "text": "Can I get volunteer help for my food supply"
-        },
-        {
-          "text": "I need volunteer help"
-        },
-        {
-          "text": "Anyone who can collect my grocery item list order"
-        },
-        {
-          "text": "Anyone who can provide voluntary assistance in my area"
-        }
-      ],
-      "description": "volunteer help required"
-    },
-    {
-      "intent": "order_data",
-      "examples": [],
-      "description": ""
-    },
-    {
-      "intent": "General_Ending",
-      "examples": [
-        {
-          "text": "I have got to go"
-        },
-        {
-          "text": "Ok goodbye"
-        },
-        {
-          "text": "See you later"
-        },
-        {
-          "text": "See you"
-        },
-        {
-          "text": "Shut up"
-        },
-        {
-          "text": "Stop doing this"
-        },
-        {
-          "text": "Stop talking to me"
-        },
-        {
-          "text": "Thank you for your time"
-        },
-        {
-          "text": "Thanks, bye!"
-        },
-        {
-          "text": "Thanks very much, bye!"
-        },
-        {
-          "text": "That is all"
-        },
-        {
-          "text": "That's everything"
-        },
-        {
-          "text": "Have a nice day?"
-        },
-        {
-          "text": "Bye bye"
-        },
-        {
-          "text": "Bye now"
-        },
-        {
-          "text": "Catch you later"
-        },
-        {
-          "text": "Cya later"
-        },
-        {
-          "text": "End trial"
-        },
-        {
-          "text": "Ending this session"
-        },
-        {
-          "text": "Finished now, good bye"
-        },
-        {
-          "text": "Get lost"
-        },
-        {
-          "text": "Go away"
-        },
-        {
-          "text": "Go off"
-        },
-        {
-          "text": "Going now"
-        },
-        {
-          "text": "Good. bye."
-        },
-        {
-          "text": "Goodbye"
-        },
-        {
-          "text": "Hey bot go away"
-        },
-        {
-          "text": "Im done"
-        },
-        {
-          "text": "I'm done"
-        },
-        {
-          "text": "I want to quit"
-        },
-        {
-          "text": "I d like to stop doing this"
-        },
-        {
-          "text": "I am out of here"
-        },
-        {
-          "text": "I am leaving"
-        },
-        {
-          "text": "Time to go"
-        },
-        {
-          "text": "Im good thank you"
-        },
-        {
-          "text": "I'm leaving now"
-        },
-        {
-          "text": "It was nice chatting with you"
-        }
-      ],
-      "description": "End the conversation."
-    },
-    {
       "intent": "Covid_Symptoms",
       "examples": [
+        {
+          "text": "What are symptoms?"
+        },
         {
           "text": "Do I need to get tested?"
         },
@@ -929,211 +97,1138 @@
           "text": "am i sick"
         },
         {
-          "text": "What are symptoms?"
-        },
-        {
           "text": "How do i know if I'm sick"
         }
       ],
       "description": "Symptoms related to Covid 19."
     },
     {
-      "intent": "Covid_Event_Shutdowns",
+      "intent": "Covid_Case_Count",
       "examples": [
         {
-          "text": "events and large gatherings"
+          "text": "Does the US have a confirmed COVID case?"
         },
         {
-          "text": "What sports are being cancelled?"
+          "text": "covid number in my state?"
         },
         {
-          "text": "Are events being shut down?"
+          "text": "Does MA have a confirmed COVID case?"
         },
         {
-          "text": "Are groups of people allowed to meet?"
+          "text": "how many people are infected in the us?"
         },
         {
-          "text": "How do I know if my concert is cancelled?"
+          "text": "How many coronavirus cases are there in my area?"
         },
         {
-          "text": "When will the NHL return?"
+          "text": "How many cases of COVID-19 are in the US?"
         },
         {
-          "text": "When will the NCAA championships be held?"
+          "text": "has anyone died of coronavirus in my state?"
         },
         {
-          "text": "Should I feel safe going to the movies?"
+          "text": "How many cases of the virus are there in the world?"
         },
         {
-          "text": "What is the maximum number of people allowed to meet right now?"
+          "text": "how many people are sick in the US?"
         },
         {
-          "text": "Why is the government shutting down my event?"
+          "text": "is anyone near me sick"
         },
         {
-          "text": "Will I get a refund for a ticket I purchased?"
+          "text": "i need"
+        },
+        {
+          "text": "what is the count of coronavirus infected people?"
+        },
+        {
+          "text": "Where are cases?"
+        },
+        {
+          "text": "Are there any cases near me?"
         }
       ],
-      "description": "Information on events and large groups."
+      "description": "Information on number of Covid 19 cases."
+    },
+    {
+      "intent": "Covid_Travel_Restrictions",
+      "examples": [
+        {
+          "text": "Can I travel?"
+        },
+        {
+          "text": "Do I need a doctor's note to travel?"
+        },
+        {
+          "text": "What if I urgently need to take a flight?"
+        },
+        {
+          "text": "Should I cancel my flight to Denver?"
+        },
+        {
+          "text": "Is it safe to fly to Seattle?"
+        },
+        {
+          "text": "I just travelled. What do I do?"
+        },
+        {
+          "text": "do i need to stay home"
+        },
+        {
+          "text": "Are there any travel restrictions in place yet?"
+        }
+      ],
+      "description": "Information on travel during Covid 19 pandemic."
+    },
+    {
+      "intent": "supplies_needed",
+      "examples": [
+        {
+          "text": "who can supply Dairy Products"
+        },
+        {
+          "text": "Can I get bread",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                10,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Can I get a gallon of milk",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                12,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Anyone have some canned fruits",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                17,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Anyone have extra gloves",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                18,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Anyone have an xyz",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                15,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Anyone have a mask",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                14,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Can I get some gloves",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                15,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Does anyone have a mask",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                19,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Does anyone have any paper towel",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                21,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Does anyone have some canned vegetables",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                22,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I need a bag of ice",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                9,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I need hand sanitizer",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                7,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I need some toilet paper",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                12,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I want a bag of ice",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                9,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I want some canned food",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                12,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I want vegetables",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                7,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is the closest location that has apples or bananas",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                38,
+                44
+              ]
+            },
+            {
+              "entity": "supplies",
+              "location": [
+                48,
+                55
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is the closest location that has fruits",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                38,
+                44
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is the closest location that has some water bottles",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                43,
+                56
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is the nearest location that has a gallon of milk",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                40,
+                54
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is the nearest location that has disinfectant wipes",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                38,
+                56
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is the nearest location that has some batteries",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                43,
+                52
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Where can I get a bag of rice",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                18,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Where can I get milk and eggs",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                16,
+                20
+              ]
+            },
+            {
+              "entity": "supplies",
+              "location": [
+                25,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Where can I get some clorox",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                21,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Who has a bottle of hand sanitizer",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                20,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Who has fruits",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                8,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Who has some cleaning supplies",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                13,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Can I get an box of cereal",
+          "mentions": [
+            {
+              "entity": "supplies",
+              "location": [
+                13,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Who has Grocery Items"
+        },
+        {
+          "text": "Who can supply medicines"
+        },
+        {
+          "text": "Who can provide me Sugar"
+        },
+        {
+          "text": "Who can help me with Medicines"
+        },
+        {
+          "text": "Who can help me with grocery items"
+        },
+        {
+          "text": "who can help me with dairy products"
+        },
+        {
+          "text": "I want Wheat Flour"
+        },
+        {
+          "text": "Anyone supplying grocery items in my area"
+        },
+        {
+          "text": "Any Vegetable Vendor in nearby area"
+        }
+      ],
+      "description": "supply or services residents in need of"
     },
     {
       "intent": "General_Greetings",
       "examples": [
         {
-          "text": "How r u?"
-        },
-        {
-          "text": "Looking good eve"
-        },
-        {
-          "text": "Ok take me back"
-        },
-        {
-          "text": "What's new?"
-        },
-        {
-          "text": "What's up?"
+          "text": "How is it going?"
         },
         {
           "text": "Who is this?"
         },
         {
-          "text": "You there"
+          "text": "What's up?"
         },
         {
-          "text": "How are things going?"
+          "text": "What's new?"
         },
         {
-          "text": "Good day"
-        },
-        {
-          "text": "Good evening"
-        },
-        {
-          "text": "Good morning"
-        },
-        {
-          "text": "Good to see you"
-        },
-        {
-          "text": "Greetings"
-        },
-        {
-          "text": "Have you been well?"
-        },
-        {
-          "text": "Hello Agent"
-        },
-        {
-          "text": "Hello I am looking for some help here"
-        },
-        {
-          "text": "Hello"
-        },
-        {
-          "text": "Hey how are you doing"
-        },
-        {
-          "text": "Hey there all"
-        },
-        {
-          "text": "Hey there"
-        },
-        {
-          "text": "Hey twin"
-        },
-        {
-          "text": "Hey you"
-        },
-        {
-          "text": "Hi advisor"
-        },
-        {
-          "text": "Hi there"
-        },
-        {
-          "text": "How are you today?"
+          "text": "Ok take me back"
         },
         {
           "text": "How have you been?"
         },
         {
-          "text": "How is it going?"
+          "text": "How are you today?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "You there"
         }
       ],
       "description": "Greet the bot."
+    },
+    {
+      "intent": "order_data",
+      "examples": [],
+      "description": ""
+    },
+    {
+      "intent": "Covid_Testing_Locations",
+      "examples": [
+        {
+          "text": "Can I get tested at my doctors?"
+        },
+        {
+          "text": "Can I get tested at Walgreens?"
+        },
+        {
+          "text": "Can I test myself at my house?"
+        },
+        {
+          "text": "Where can I get tested?"
+        },
+        {
+          "text": "testing locations?"
+        },
+        {
+          "text": "testing spots for coronavirus?"
+        },
+        {
+          "text": "How do I get tested?"
+        }
+      ],
+      "description": "Where to get tested for Covid 19."
+    },
+    {
+      "intent": "Covid_Protecting_Against_Infection",
+      "examples": [
+        {
+          "text": "How do I prevent myself from getting sick?"
+        },
+        {
+          "text": "hot to take precaution"
+        },
+        {
+          "text": "prevent the spread of the virus"
+        },
+        {
+          "text": "What is the risk of my child becoming sick with COVID-19?"
+        },
+        {
+          "text": "Is it even possible to avoid the virus?"
+        },
+        {
+          "text": "Do I need to wear a face mask?"
+        },
+        {
+          "text": "what should i do to contain the spread of the virus"
+        },
+        {
+          "text": "How often should I wash my hands?"
+        },
+        {
+          "text": "How do I protect myself?"
+        },
+        {
+          "text": "how do I ensure my family is safe?"
+        },
+        {
+          "text": "How can I protect my family from the spread of coronavirus?"
+        },
+        {
+          "text": "What’s the best way to prevent coronavirus?"
+        },
+        {
+          "text": "How to Prevent the Spread of the Virus"
+        },
+        {
+          "text": "How do I avoid covid-19?"
+        }
+      ],
+      "description": "How to prevent infection."
+    },
+    {
+      "intent": "available",
+      "examples": [
+        {
+          "text": "Who is available"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Covid_Event_Shutdowns",
+      "examples": [
+        {
+          "text": "What sports are being cancelled?"
+        },
+        {
+          "text": "Will I get a refund for a ticket I purchased?"
+        },
+        {
+          "text": "Why is the government shutting down my event?"
+        },
+        {
+          "text": "What is the maximum number of people allowed to meet right now?"
+        },
+        {
+          "text": "Should I feel safe going to the movies?"
+        },
+        {
+          "text": "When will the NCAA championships be held?"
+        },
+        {
+          "text": "When will the NHL return?"
+        },
+        {
+          "text": "How do I know if my concert is cancelled?"
+        },
+        {
+          "text": "Are groups of people allowed to meet?"
+        },
+        {
+          "text": "Are events being shut down?"
+        },
+        {
+          "text": "events and large gatherings"
+        }
+      ],
+      "description": "Information on events and large groups."
+    },
+    {
+      "intent": "Covid_Description",
+      "examples": [
+        {
+          "text": "Is the coronavirus the same as MERS?"
+        },
+        {
+          "text": "Is the coronavirus the same as a cold?"
+        },
+        {
+          "text": "How is COVID-19 spread?"
+        },
+        {
+          "text": "Has the cause of COVID-19 been identified?"
+        },
+        {
+          "text": "Is the coronavirus the same as SARS?"
+        },
+        {
+          "text": "What is COVID-19?"
+        },
+        {
+          "text": "what is the coronavirus?"
+        },
+        {
+          "text": "Where did the coronavirus come from?"
+        },
+        {
+          "text": "How dangerous is this?"
+        },
+        {
+          "text": "item"
+        },
+        {
+          "text": "what is novel coronavirus?"
+        }
+      ],
+      "description": "Overview of Covid 19."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "I am leaving"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "Covid_Testing_Results",
+      "examples": [
+        {
+          "text": "Do my test results come in the mail?"
+        },
+        {
+          "text": "Who will give me my COVID test results?"
+        },
+        {
+          "text": "My doctor hasn't given me my test results back yet."
+        },
+        {
+          "text": "test outcomes?"
+        },
+        {
+          "text": "When can I get my results?"
+        },
+        {
+          "text": "Its been a week. Who can I call to get my test results?"
+        },
+        {
+          "text": "How can I get my test results?"
+        }
+      ],
+      "description": "How to get Covid 19 test results."
+    },
+    {
+      "intent": "Covid_Cleaning_Disinfecting",
+      "examples": [
+        {
+          "text": "how do i get rid of germs at my home"
+        },
+        {
+          "text": "What cleaning methods kill the coronavirus?"
+        },
+        {
+          "text": "Should I spray myself or my kids with disinfectant?"
+        },
+        {
+          "text": "Are there disinfectants available that can inactivate (kill) COVID-19?"
+        },
+        {
+          "text": "How often do I need to clean my home to prevent the spread of coronavirus?"
+        },
+        {
+          "text": "All the stores are out of disinfecting wipes, what do I do?"
+        },
+        {
+          "text": "Do I have to use bleach to kill coronavirus?"
+        },
+        {
+          "text": "Do I need lysol wipes?"
+        },
+        {
+          "text": "Does alcohol kill the coronavirus?"
+        },
+        {
+          "text": "How do I clean my home properly?"
+        },
+        {
+          "text": "Whats the difference between cleaning and disinfecting?"
+        }
+      ],
+      "description": "How to clean and disinfect."
+    },
+    {
+      "intent": "Covid_School_Shutdown",
+      "examples": [
+        {
+          "text": "Can my child go to school?"
+        },
+        {
+          "text": "What does the ordered school closure mean for report cards?"
+        },
+        {
+          "text": "Are schools shut down?"
+        },
+        {
+          "text": "How can I get the latest news on my school closure?"
+        },
+        {
+          "text": "How will the shutdown impact my child's attendance records?"
+        },
+        {
+          "text": "are schools open?"
+        },
+        {
+          "text": "Should my child stay home from school?"
+        },
+        {
+          "text": "When will the schools open?"
+        },
+        {
+          "text": "What happens after the ordered three-week closure period ends?"
+        },
+        {
+          "text": "Will students still graduate this year?"
+        }
+      ],
+      "description": "Information on local schools."
+    },
+    {
+      "intent": "volunteer_help",
+      "examples": [
+        {
+          "text": "Anyone who can collect my grocery item list order"
+        },
+        {
+          "text": "I need volunteer help"
+        },
+        {
+          "text": "Can I get volunteer help for my food supply"
+        },
+        {
+          "text": "Any volunteer in my area"
+        },
+        {
+          "text": "Anyone who can provide voluntary assistance in my area"
+        }
+      ],
+      "description": "volunteer help required"
     }
   ],
   "entities": [
     {
-      "entity": "area",
+      "entity": "supplies",
       "values": [
         {
           "type": "synonyms",
-          "value": "kuwarbav",
+          "value": "gloves",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "ratnagiri",
+          "value": "bag of rice",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "ravet",
+          "value": "apples",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "karvenagar",
+          "value": "water bottles",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "pune",
-          "synonyms": []
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "quantity",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "@sys-number",
-          "synonyms": []
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "vegetables",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "tomatos",
-          "synonyms": []
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "fruits",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "banana",
+          "value": "vegetablesAndFruits",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "apple",
+          "value": "vegetables",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "oranges",
+          "value": "toilet paper",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "paper towel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "milk",
+          "synonyms": [
+            "packet of milk"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mask",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hand sanitizer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "groceryItems",
+          "synonyms": [
+            "grocery kits",
+            "grocery",
+            "grocery kit"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "gallon of milk",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "survival kit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "fruits",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "food packets",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "eggs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "disinfectant wipes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "dairyItems",
+          "synonyms": [
+            "dairyItems",
+            "Dairy Items"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dairy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "clorox",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cleaning supplies",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "canned vegetables",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "canned fruits",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "canned food",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bread",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "box of cereal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "batteries",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bananas",
           "synonyms": []
         }
       ],
@@ -1151,227 +1246,17 @@
         },
         {
           "type": "synonyms",
-          "value": "litre",
-          "synonyms": [
-            "ltr"
-          ]
-        },
-        {
-          "type": "synonyms",
           "value": "kg",
           "synonyms": [
             "Kilogram"
           ]
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "dairyitems",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "curd",
-          "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "buttermilk",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "milk",
+          "value": "litre",
           "synonyms": [
-            "gallon of milk",
-            "packet of milk"
+            "ltr"
           ]
-        },
-        {
-          "type": "synonyms",
-          "value": "ghee",
-          "synonyms": []
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "pincode",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "2222",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "1111",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "3333",
-          "synonyms": []
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "supplies",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "survival kit",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "fruits",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "gallon of milk",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "gloves",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "groceryItems",
-          "synonyms": [
-            "grocery kits",
-            "grocery",
-            "grocery kit"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "hand sanitizer",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "mask",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "milk",
-          "synonyms": [
-            "packet of milk"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "paper towel",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "toilet paper",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "vegetables",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "vegetablesAndFruits",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "water bottles",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "apples",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "bag of rice",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "bananas",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "batteries",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "box of cereal",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "bread",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "canned food",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "canned fruits",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "canned vegetables",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "cleaning supplies",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "clorox",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "dairy",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "dairyItems",
-          "synonyms": [
-            "dairyItems",
-            "Dairy Items"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "disinfectant wipes",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "eggs",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "food packets",
-          "synonyms": []
         }
       ],
       "fuzzy_match": true
@@ -1379,24 +1264,6 @@
     {
       "entity": "groceryitems",
       "values": [
-        {
-          "type": "synonyms",
-          "value": "rice",
-          "synonyms": [
-            "bag of rice",
-            "basamati rice"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "wheat flour",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "toor dal",
-          "synonyms": []
-        },
         {
           "type": "synonyms",
           "value": "sugar",
@@ -1424,7 +1291,107 @@
         },
         {
           "type": "synonyms",
+          "value": "rice",
+          "synonyms": [
+            "bag of rice",
+            "basamati rice"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "rava",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "wheat flour",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "toor dal",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "area",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ratnagiri",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pune",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "karvenagar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ravet",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "kuwarbav",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "kothrud",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bandra",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "thane",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "andheri",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "koregaon park",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "baner",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "pincode",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "2222",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3333",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1111",
           "synonyms": []
         }
       ],
@@ -1433,6 +1400,17 @@
     {
       "entity": "sys-number",
       "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "vegetables",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "tomatos",
+          "synonyms": []
+        }
+      ],
       "fuzzy_match": true
     },
     {
@@ -1459,6 +1437,80 @@
         }
       ],
       "fuzzy_match": true
+    },
+    {
+      "entity": "dairyitems",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "milk",
+          "synonyms": [
+            "gallon of milk",
+            "packet of milk"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ghee",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "curd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "buttermilk",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "fruits",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "oranges",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "banana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "apple",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "quantity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "@sys-number",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "contact_no",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "mobile",
+          "patterns": [
+            "(\\d{2})-(\\d{10})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
     }
   ],
   "metadata": {
@@ -1470,675 +1522,75 @@
   },
   "webhooks": [
     {
-      "url": "https://us-south.functions.cloud.ibm.com/api/v1/web/atul.sarpotdar%40capgemini.com_dev/default/retrieve_sp_for_queryindex_sequence.json",
+      "url": "https://us-south.functions.cloud.ibm.com/api/v1/web/atul.sarpotdar%40capgemini.com_dev/default/co_aid_dispatcher_action.json",
       "name": "main_webhook",
       "headers": []
     }
   ],
   "dialog_nodes": [
     {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "can you tell me quantity for same bbbbb"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_2_1586893857133",
-      "event_name": "focus",
-      "dialog_node": "handler_8_1586893857141",
-      "previous_sibling": "handler_6_1586893857141"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_2_1586893857133",
-      "context": {
-        "number": "@sys-number.values"
-      },
-      "conditions": "@sys-number.values",
-      "event_name": "input",
-      "dialog_node": "handler_6_1586893857141"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "Please tell me your area pincode"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_7_1587014993531",
-      "event_name": "focus",
-      "dialog_node": "handler_3_1587014993541",
-      "previous_sibling": "handler_7_1587014993541"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_7_1587014993531",
-      "context": {
-        "pincode": "@pincode"
-      },
-      "conditions": "@pincode",
-      "event_name": "input",
-      "dialog_node": "handler_7_1587014993541"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_10_1586981877536",
-      "variable": "$area",
-      "dialog_node": "slot_9_1587364409982",
-      "previous_sibling": "slot_7_1587014993531"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_10_1586981877536",
-      "variable": "$pincode",
-      "dialog_node": "slot_7_1587014993531",
-      "previous_sibling": "handler_1_1587014393203"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "For capturing your area details I will need your area pincode."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_10_1586981877536",
-      "event_name": "focus",
-      "dialog_node": "handler_1_1587014393203",
-      "previous_sibling": "node_3_1587449392962"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "your area & pincode details are captured successfully :<br> $area - $pincode "
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_10_1586981877536",
-      "context": {},
-      "conditions": "true",
-      "dialog_node": "response_9_1586982757488",
-      "previous_sibling": "slot_9_1587364409982"
-    },
-    {
-      "type": "standard",
-      "parent": "node_10_1586981877536",
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
-      },
-      "conditions": "$pincode",
-      "dialog_node": "node_3_1587449392962"
-    },
-    {
-      "type": "slot",
-      "parent": "node_3_1586864272431",
-      "dialog_node": "slot_9_1586876153885",
-      "previous_sibling": "node_6_1586891440363"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "ok. please provide me details related to your request"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          }
-        ]
-      },
-      "parent": "node_3_1586864272431",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "condition",
-        "dialog_node": "node_7_1586893062163"
-      },
-      "conditions": "@reply:yes",
-      "dialog_node": "node_6_1586891440363"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            ""
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_1_1587670882281",
-      "conditions": "@groceryitems",
-      "dialog_node": "response_18_1587670882290",
-      "previous_sibling": "response_17_1587670882290"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "for $pincode - We did not find any matching result"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_1_1587670882281",
-      "conditions": "$webhook_result_3.docs.size() == 0",
-      "dialog_node": "response_17_1587670882290",
-      "previous_sibling": "response_16_1587670882290"
-    },
-    {
-      "type": "standard",
-      "title": "Select Service Provider",
-      "output": {},
-      "parent": "node_1_1587670882281",
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
-      },
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "condition",
-        "dialog_node": "node_3_1587670882290"
-      },
-      "conditions": "true",
-      "dialog_node": "node_2_1587670882290",
-      "previous_sibling": "response_19_1587670882290"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "We did not find any matching result"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_1_1587670882281",
-      "conditions": "anything_else",
-      "dialog_node": "response_19_1587670882290",
-      "previous_sibling": "response_18_1587670882290"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "Here is list of volunteer in your area for $pincode : <br> <i><u><? $webhook_result_3.docs.joinToArray(\"%e.vol_name%\").join('<br>')?></u></i> <br>"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_1_1587670882281",
-      "conditions": "$webhook_result_3.docs.size() > 0",
-      "dialog_node": "response_16_1587670882290"
-    },
-    {
-      "type": "slot",
-      "parent": "node_7_1586893062163",
-      "variable": "$dairyitem",
-      "dialog_node": "slot_8_1586893741813",
-      "previous_sibling": "handler_1_1586893740795"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_7_1586893062163",
-      "variable": "$number",
-      "dialog_node": "slot_2_1586893857133",
-      "previous_sibling": "slot_8_1586893741813"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "I will need item name, quantity and location to continue"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_7_1586893062163",
-      "event_name": "focus",
-      "dialog_node": "handler_1_1586893740795"
-    },
-    {
-      "type": "standard",
-      "title": "grocery reply",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "ok. please provide me details related to your request"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          }
-        ]
-      },
-      "parent": "node_5_1586897700895",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "condition",
-        "dialog_node": "node_2_1586925641226"
-      },
-      "conditions": "@reply:yes",
-      "dialog_node": "node_1_1586925641208",
-      "previous_sibling": "response_5_1587241985639"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "We did not find any matching result"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_5_1586897700895",
-      "conditions": "anything_else",
-      "dialog_node": "response_5_1587241985639",
-      "previous_sibling": "response_5_1587013950133"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "for $pincode - We did not find any matching result"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_5_1586897700895",
-      "conditions": "$webhook_result_1.docs.size() == 0",
-      "dialog_node": "response_1_1587578160002",
-      "previous_sibling": "response_5_1587241984818"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "I can help you to order your things. I will need few details to proceed with your request. Do you want to proceed ?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_5_1586897700895",
-      "conditions": "@groceryitems",
-      "dialog_node": "response_5_1587013950133",
-      "previous_sibling": "response_1_1587578160002"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "Here is sp list for $pincode - <? $webhook_result_1.docs.joinToArray(\"%e.sp_name%\") ?>"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_5_1586897700895",
-      "conditions": "$webhook_result_1.docs.size() > 0",
-      "dialog_node": "response_5_1587241984818"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "Please mention unit such as Kg, Ltr etc."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_10_1587668087154",
-      "event_name": "focus",
-      "dialog_node": "handler_3_1587668087164",
-      "previous_sibling": "handler_10_1587668087164"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_10_1587668087154",
-      "context": {
-        "unit": "@unit.values"
-      },
-      "conditions": "@unit.values",
-      "event_name": "input",
-      "dialog_node": "handler_10_1587668087164"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "Please mention unit such as Kg, Ltr etc."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_10_1587670882290",
-      "event_name": "focus",
-      "dialog_node": "handler_12_1587670882290",
-      "previous_sibling": "handler_11_1587670882290"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_10_1587670882290",
-      "context": {
-        "unit": "@unit.values"
-      },
-      "conditions": "@unit.values",
-      "event_name": "input",
-      "dialog_node": "handler_11_1587670882290"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "Service provider value is incorrect"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_2_1587670882290",
-      "conditions": "anything_else",
-      "dialog_node": "response_15_1587670882290",
-      "previous_sibling": "response_14_1587670882290"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "We will place order with <?input.text?>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_2_1587670882290",
-      "context": {
-        "service_provider": "<?input.text?>"
-      },
-      "conditions": "$webhook_result_1.docs.size() > 0",
-      "dialog_node": "response_14_1587670882290",
-      "previous_sibling": "node_3_1587670882290"
-    },
-    {
       "type": "frame",
-      "title": "Prepare Order Details",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "I am placing your order for - <br><? $groceryitem.join('<br>')  ?>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_2_1587670882290",
-      "conditions": "$grocery_supply == \"true\"",
-      "dialog_node": "node_3_1587670882290"
-    },
-    {
-      "type": "standard",
-      "title": "fetch volunteers",
-      "output": {},
-      "parent": "node_7_1586864353753",
-      "actions": [
-        {
-          "name": "main_webhook",
-          "type": "webhook",
-          "parameters": {
-            "type": "volunteer",
-            "pincode": "<? $pincode.toString() ?>"
-          },
-          "result_variable": "webhook_result_3"
-        }
-      ],
+      "title": "location capture",
+      "parent": "node_5_1587828422199",
       "metadata": {
         "_customization": {
           "mcr": true
         }
       },
-      "conditions": "true",
-      "dialog_node": "node_1_1587670882281"
-    },
-    {
-      "type": "standard",
-      "title": "intro 2",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "I can also help you with covid-19 testing locations and medical supervisors, volunteers working in your area."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "values": [],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "Welcome",
-      "conditions": "true",
-      "dialog_node": "node_5_1586926406807"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "Can you help with grocery item ? "
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_4_1587670882290",
-      "event_name": "focus",
-      "dialog_node": "handler_6_1587670882290",
-      "previous_sibling": "handler_5_1587670882290"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_4_1587670882290",
-      "context": {
-        "groceryitem": "@groceryitems.values"
-      },
-      "conditions": "@groceryitems.values",
-      "event_name": "input",
-      "dialog_node": "handler_5_1587670882290"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_3_1587647775736",
-      "variable": "$groceryitem",
-      "dialog_node": "slot_4_1587647775736",
-      "previous_sibling": "handler_10_1587647775736"
-    },
-    {
-      "type": "slot",
-      "parent": "node_3_1587647775736",
-      "variable": "$unit",
-      "dialog_node": "slot_10_1587668087154",
-      "previous_sibling": "slot_7_1587647775736"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_3_1587647775736",
-      "variable": "$number",
-      "dialog_node": "slot_7_1587647775736",
-      "previous_sibling": "slot_4_1587647775736"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "I will need item name, quantity to continue"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_3_1587647775736",
-      "event_name": "focus",
-      "dialog_node": "handler_10_1587647775736"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_9_1586876153885",
-      "event_name": "focus",
-      "dialog_node": "handler_8_1586876153890",
-      "previous_sibling": "handler_9_1586876153890"
-    },
-    {
-      "type": "event_handler",
-      "parent": "slot_9_1586876153885",
-      "event_name": "input",
-      "dialog_node": "handler_9_1586876153890"
-    },
-    {
-      "type": "standard",
-      "parent": "node_2_1586864419226",
-      "dialog_node": "node_2_1586873452245"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "can you tell me quantity for same ?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_7_1587647775736",
-      "event_name": "focus",
-      "dialog_node": "handler_9_1587647775736",
-      "previous_sibling": "handler_8_1587647775736"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_7_1587647775736",
-      "context": {
-        "number": "@sys-number.values"
-      },
-      "conditions": "@sys-number.values",
-      "event_name": "input",
-      "dialog_node": "handler_8_1587647775736"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "I am identifying the volunteers in your area who can serve you"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_3_1587449392962",
-      "conditions": "$volunteer_supply == \"true\"",
-      "dialog_node": "response_4_1587670616089",
-      "previous_sibling": "response_3_1587483400400"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "I am identifying the service providers in your area who can serve you"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_3_1587449392962",
-      "context": {},
       "next_step": {
         "behavior": "jump_to",
-        "selector": "condition",
-        "dialog_node": "node_1_1587647775727"
+        "selector": "body",
+        "dialog_node": "node_3_1587449392962"
       },
-      "conditions": "$grocery_supply == \"true\"",
-      "dialog_node": "response_3_1587483400400"
+      "conditions": "@pincode || @area",
+      "dialog_node": "node_10_1586981877536",
+      "digress_out": "allow_all",
+      "previous_sibling": "response_7_1587829661446",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Please share your area pincode details "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1587828422199",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1586981877536"
+      },
+      "conditions": "!$location_captured_already",
+      "dialog_node": "response_7_1587829661446",
+      "previous_sibling": "response_8_1587829553121"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "your location is already captured as - $area -  $pincode"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1587828422199",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1587449392962"
+      },
+      "conditions": "$location_captured_already == \"true\"",
+      "dialog_node": "response_8_1587829553121"
     },
     {
       "type": "response_condition",
@@ -2160,15 +1612,15 @@
       "output": {
         "text": {
           "values": [
-            ""
+            "Here is list of service provider in your area for $pincode : <br> <i><u><? $webhook_result_1.docs.joinToArray(\"%e.name%\").join('<br>')?></u></i> <br><br> If you want further assistance please type in volunteer name from above list and I will contact him for you<br> "
           ],
           "selection_policy": "sequential"
         }
       },
       "parent": "node_1_1587647775727",
-      "conditions": "@groceryitems",
-      "dialog_node": "response_5_1587649144763",
-      "previous_sibling": "response_3_1587649116070"
+      "conditions": "$webhook_result_1.docs.size() > 0 && $volunteer_supply == \"true\"",
+      "dialog_node": "response_1_1587824495533",
+      "previous_sibling": "response_1_1587649169600"
     },
     {
       "type": "standard",
@@ -2184,9 +1636,24 @@
         "selector": "condition",
         "dialog_node": "node_3_1587647775736"
       },
-      "conditions": "true",
+      "conditions": "$grocery_supply == \"true\"",
       "dialog_node": "node_10_1587666245731",
-      "previous_sibling": "response_1_1587649169600"
+      "previous_sibling": "response_1_1587824495533"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1587647775727",
+      "conditions": "@groceryitems",
+      "dialog_node": "response_5_1587649144763",
+      "previous_sibling": "response_3_1587649116070"
     },
     {
       "type": "response_condition",
@@ -2214,41 +1681,40 @@
         }
       },
       "parent": "node_1_1587647775727",
-      "conditions": "$webhook_result_1.docs.size() > 0",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1587666245731"
+      },
+      "conditions": "$webhook_result_1.docs.size() > 0 && $grocery_supply == \"true\"",
       "dialog_node": "response_9_1587649058781"
     },
     {
-      "type": "event_handler",
+      "type": "standard",
+      "title": "grocery - fetch service providers",
       "output": {},
-      "parent": "slot_4_1586863584864",
-      "event_name": "focus",
-      "dialog_node": "handler_3_1586863584889",
-      "previous_sibling": "handler_2_1586863584889"
-    },
-    {
-      "type": "event_handler",
-      "parent": "slot_4_1586863584864",
-      "event_name": "input",
-      "dialog_node": "handler_2_1586863584889"
-    },
-    {
-      "type": "frame",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "I am placing your order for $number : $dairyitem"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
+      "parent": "node_5_1587649401271",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "type": "sp",
+            "action": "find_doc_for_params",
+            "pincode": "<? $pincode.toString() ?>",
+            "category": "grocery"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
       },
-      "parent": "node_6_1586891440363",
-      "conditions": "$supplies_needed_in",
-      "dialog_node": "node_7_1586893062163"
+      "conditions": "true",
+      "dialog_node": "node_1_1587647775727",
+      "digress_out": "allow_all_never_return"
     },
     {
       "type": "event_handler",
@@ -2281,63 +1747,221 @@
       "output": {
         "text": {
           "values": [
-            "anything related to dairy item ? "
+            "Please mention unit such as Kg, Ltr etc."
           ],
           "selection_policy": "sequential"
         }
       },
-      "parent": "slot_8_1586893741813",
+      "parent": "slot_10_1587668087154",
       "event_name": "focus",
-      "dialog_node": "handler_3_1586893741834",
-      "previous_sibling": "handler_7_1586893741834"
+      "dialog_node": "handler_3_1587668087164",
+      "previous_sibling": "handler_10_1587668087164"
     },
     {
       "type": "event_handler",
       "output": {},
-      "parent": "slot_8_1586893741813",
+      "parent": "slot_10_1587668087154",
       "context": {
-        "dairyitem": "@dairyitems.values"
+        "unit": "@unit.values"
       },
-      "conditions": "@dairyitems.values",
+      "conditions": "@unit.values",
       "event_name": "input",
-      "dialog_node": "handler_7_1586893741834"
+      "dialog_node": "handler_10_1587668087164"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1586863584864",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1586863584889",
+      "previous_sibling": "handler_2_1586863584889"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1586863584864",
+      "event_name": "input",
+      "dialog_node": "handler_2_1586863584889"
     },
     {
       "type": "event_handler",
       "output": {
         "text": {
           "values": [
-            "Can you help with grocery item ? "
+            "please enter mobile number"
           ],
           "selection_policy": "sequential"
         }
       },
-      "parent": "slot_3_1586925641226",
+      "parent": "slot_6_1587831036026",
       "event_name": "focus",
-      "dialog_node": "handler_5_1586925641226",
-      "previous_sibling": "handler_4_1586925641226"
+      "dialog_node": "handler_9_1587831036032",
+      "previous_sibling": "handler_4_1587831036032"
     },
     {
       "type": "event_handler",
       "output": {},
-      "parent": "slot_3_1586925641226",
+      "parent": "slot_6_1587831036026",
       "context": {
-        "groceryitem": "@groceryitems.values"
+        "mobile": "<? @contact_no.literal ?>"
       },
-      "conditions": "@groceryitems.values",
+      "conditions": "@contact_no:mobile",
       "event_name": "input",
-      "dialog_node": "handler_4_1586925641226"
+      "dialog_node": "handler_4_1587831036032"
+    },
+    {
+      "type": "standard",
+      "title": "Identify Category of Supplies Needed",
+      "parent": "node_10_1587822807580",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#supplies_needed",
+      "dialog_node": "node_10_1584231342659"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1587647775736",
+      "variable": "$number",
+      "dialog_node": "slot_7_1587647775736",
+      "previous_sibling": "slot_4_1587647775736"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1587647775736",
+      "variable": "$groceryitem",
+      "dialog_node": "slot_4_1587647775736",
+      "previous_sibling": "handler_10_1587647775736"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1587647775736",
+      "variable": "$unit",
+      "dialog_node": "slot_10_1587668087154",
+      "previous_sibling": "slot_7_1587647775736"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I will need item name, quantity to continue"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1587647775736",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1587647775736"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I am identifying the volunteers in your area who can serve you"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1587449392962",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1587670882281"
+      },
+      "conditions": "$volunteer_supply == \"true\"",
+      "dialog_node": "response_4_1587670616089",
+      "previous_sibling": "response_3_1587483400400"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I am identifying the covid-19 testing locations in your area"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1587449392962",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1586873452245"
+      },
+      "conditions": "$testing_loc_search == \"true\"",
+      "dialog_node": "response_9_1587837906120",
+      "previous_sibling": "response_4_1587670616089"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am identifying the service providers in your area who can serve you"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1587449392962",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1587647775727"
+      },
+      "conditions": "$grocery_supply == \"true\"",
+      "dialog_node": "response_3_1587483400400"
+    },
+    {
+      "type": "standard",
+      "title": "intro 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I can also help you with covid-19 testing locations and medical supervisors, volunteers working in your area."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "conditions": "true",
+      "dialog_node": "node_5_1586926406807"
     },
     {
       "type": "event_handler",
       "parent": "node_10_1584231342659",
       "event_name": "focus",
       "dialog_node": "handler_1_1586863583921",
-      "previous_sibling": "node_10_1586981877536"
+      "previous_sibling": "node_5_1587828422199"
     },
     {
-      "type": "frame",
-      "title": "location capture",
+      "type": "standard",
+      "title": "is location captured",
       "parent": "node_10_1584231342659",
       "metadata": {
         "_customization": {
@@ -2349,45 +1973,24 @@
         "selector": "body",
         "dialog_node": "node_3_1587449392962"
       },
-      "conditions": "@area || @pincode",
-      "dialog_node": "node_10_1586981877536",
-      "digress_out": "allow_all",
-      "previous_sibling": "node_3_1586864272431",
-      "digress_out_slots": "not_allowed"
+      "conditions": "@area || @supplies",
+      "dialog_node": "node_5_1587828422199",
+      "previous_sibling": "node_5_1587649401271"
     },
     {
-      "type": "standard",
+      "type": "response_condition",
       "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "To assist you with required grocery supply I will need you area pincode details and address details."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
+        "text": {
+          "values": [
+            "What supplies do you need"
+          ],
+          "selection_policy": "sequential"
+        }
       },
       "parent": "node_10_1584231342659",
-      "context": {
-        "grocery_supply": "true"
-      },
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_10_1586981877536"
-      },
-      "conditions": "@supplies:(groceryItems)",
-      "dialog_node": "node_5_1587649401271",
-      "previous_sibling": "node_5_1586897700895"
-    },
-    {
-      "type": "slot",
-      "parent": "node_10_1584231342659",
-      "dialog_node": "slot_4_1586863584864",
-      "previous_sibling": "handler_1_1586863583921"
+      "conditions": "true",
+      "dialog_node": "response_6_1585168432295",
+      "previous_sibling": "response_7_1585167995210"
     },
     {
       "type": "response_condition",
@@ -2443,14 +2046,19 @@
       "previous_sibling": "slot_4_1586863584864"
     },
     {
+      "type": "slot",
+      "parent": "node_10_1584231342659",
+      "dialog_node": "slot_4_1586863584864",
+      "previous_sibling": "handler_1_1586863583921"
+    },
+    {
       "type": "standard",
-      "title": "Dairy Items",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "I can help you with service providers in your area to order your dairy items. I will need few details to proceed with your request. Do you want to proceed ?"
+                "text": "To assist you with required grocery supply I will need you area pincode details and address details."
               }
             ],
             "response_type": "text",
@@ -2459,198 +2067,16 @@
         ]
       },
       "parent": "node_10_1584231342659",
-      "conditions": "@supplies:(dairyItems)",
-      "dialog_node": "node_3_1586864272431",
-      "previous_sibling": "node_5_1587649401271"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "What supplies do you need"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_10_1584231342659",
-      "conditions": "true",
-      "dialog_node": "response_6_1585168432295",
-      "previous_sibling": "response_7_1585167995210"
-    },
-    {
-      "type": "standard",
-      "title": "Vegetables & Fruits",
-      "parent": "node_10_1584231342659",
-      "actions": [
-        {
-          "name": "main_webhook",
-          "type": "webhook",
-          "parameters": {
-            "pincode": "<? $pincode.toString() ?>"
-          },
-          "result_variable": "webhook_result_1"
-        }
-      ],
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
-      },
-      "conditions": "@supplies:(vegetablesAndFruits)",
-      "dialog_node": "node_5_1586897700895"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "can you tell me quantity for same ?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_7_1587670882290",
-      "event_name": "focus",
-      "dialog_node": "handler_9_1587670882290",
-      "previous_sibling": "handler_8_1587670882290"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_7_1587670882290",
       "context": {
-        "number": "@sys-number.values"
+        "grocery_supply": "true"
       },
-      "conditions": "@sys-number.values",
-      "event_name": "input",
-      "dialog_node": "handler_8_1587670882290"
-    },
-    {
-      "type": "standard",
-      "title": "grocery - fetch service providers",
-      "output": {},
-      "parent": "node_5_1587649401271",
-      "actions": [
-        {
-          "name": "main_webhook",
-          "type": "webhook",
-          "parameters": {
-            "pincode": "<? $pincode.toString() ?>",
-            "category": "grocery"
-          },
-          "result_variable": "webhook_result_1"
-        }
-      ],
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1587828422199"
       },
-      "conditions": "true",
-      "dialog_node": "node_1_1587647775727",
-      "digress_out": "allow_all_never_return"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_3_1587670882290",
-      "variable": "$groceryitem",
-      "dialog_node": "slot_4_1587670882290",
-      "previous_sibling": "handler_13_1587670882290"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_3_1587670882290",
-      "variable": "$number",
-      "dialog_node": "slot_7_1587670882290",
-      "previous_sibling": "slot_4_1587670882290"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_3_1587670882290",
-      "variable": "$unit",
-      "dialog_node": "slot_10_1587670882290",
-      "previous_sibling": "slot_7_1587670882290"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "I will need item name, quantity to continue"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_3_1587670882290",
-      "event_name": "focus",
-      "dialog_node": "handler_13_1587670882290"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "Service provider value is incorrect"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_10_1587666245731",
-      "conditions": "anything_else",
-      "dialog_node": "response_2_1587667240446",
-      "previous_sibling": "response_4_1587667121210"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "We will place order with <?input.text?>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_10_1587666245731",
-      "context": {
-        "service_provider": "<?input.text?>"
-      },
-      "conditions": "$webhook_result_1.docs.size() > 0",
-      "dialog_node": "response_4_1587667121210",
-      "previous_sibling": "node_3_1587647775736"
-    },
-    {
-      "type": "frame",
-      "title": "Prepare Order Details",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "I am placing your order for - <br><? $groceryitem.join('<br>')  ?>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_10_1587666245731",
-      "conditions": "$grocery_supply == \"true\"",
-      "dialog_node": "node_3_1587647775736"
+      "conditions": "@supplies:(groceryItems)",
+      "dialog_node": "node_5_1587649401271"
     },
     {
       "type": "event_handler",
@@ -2692,20 +2118,81 @@
       "output": {},
       "parent": "slot_9_1587364409982",
       "context": {
-        "area": "<?input.text?>"
+        "area": "<? input.text ?>"
       },
       "conditions": "@area.values",
       "event_name": "input",
       "dialog_node": "handler_2_1587364409989"
     },
     {
-      "type": "frame",
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We did not find any matching result"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1587670882281",
+      "conditions": "anything_else",
+      "dialog_node": "response_19_1587670882290",
+      "previous_sibling": "response_17_1587670882290"
+    },
+    {
+      "type": "standard",
+      "title": "Select Volunteer",
+      "output": {},
+      "parent": "node_1_1587670882281",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1587670882290",
+      "previous_sibling": "response_19_1587670882290"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "for $pincode - We did not find any matching result"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1587670882281",
+      "conditions": "$webhook_result_3.docs.size() == 0",
+      "dialog_node": "response_17_1587670882290",
+      "previous_sibling": "response_16_1587670882290"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Here is list of volunteer in your area for $pincode : <br> <i><u><? $webhook_result_3.docs.joinToArray(\"%e.name%\").join('<br>')?></u></i> <br> Please help me with the preferred name of volunteer from above list so that I can check for further assistance"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1587670882281",
+      "context": {
+        "volunteer_supply": "false"
+      },
+      "conditions": "$webhook_result_3.docs.size() > 0",
+      "dialog_node": "response_16_1587670882290"
+    },
+    {
+      "type": "response_condition",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "I am placing your order for $number : $groceryitem"
+                "text": "your area, pincode & mobile details are captured successfully :<br> $area - $pincode <br>Mobile - $mobile"
               }
             ],
             "response_type": "text",
@@ -2713,60 +2200,180 @@
           }
         ]
       },
-      "parent": "node_1_1586925641208",
-      "conditions": "$supplies_needed_in",
-      "dialog_node": "node_2_1586925641226"
+      "parent": "node_10_1586981877536",
+      "context": {},
+      "conditions": "true",
+      "dialog_node": "response_9_1586982757488",
+      "previous_sibling": "slot_6_1587831036026"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For capturing your area details I will need your area pincode."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1586981877536",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1587014393203",
+      "previous_sibling": "node_3_1587449392962"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1586981877536",
+      "variable": "$pincode",
+      "dialog_node": "slot_7_1587014993531",
+      "previous_sibling": "handler_1_1587014393203"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1586981877536",
+      "variable": "$mobile",
+      "dialog_node": "slot_6_1587831036026",
+      "previous_sibling": "slot_9_1587364409982"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1586981877536",
+      "variable": "$area",
+      "dialog_node": "slot_9_1587364409982",
+      "previous_sibling": "slot_7_1587014993531"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1586981877536",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "$pincode",
+      "dialog_node": "node_3_1587449392962"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_2_1586873452245",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1587838137107",
+      "previous_sibling": "response_6_1587838133572"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is list of Covid-19 testing locations in your area for $pincode : <br> <i><u><? $webhook_result_4.docs.joinToArray(\"%e.name%\").join('<br>')?></u></i> <br> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1586873452245",
+      "context": {
+        "testing_loc_search": "false"
+      },
+      "conditions": "$webhook_result_4.docs.size() > 0",
+      "dialog_node": "response_6_1587838133572"
     },
     {
       "type": "event_handler",
       "output": {
         "text": {
           "values": [
-            "can you tell me quantity for same bbbbb"
+            "can you tell me quantity for same ?"
           ],
           "selection_policy": "sequential"
         }
       },
-      "parent": "slot_6_1586925641226",
+      "parent": "slot_7_1587647775736",
       "event_name": "focus",
-      "dialog_node": "handler_8_1586925641226",
-      "previous_sibling": "handler_7_1586925641226"
+      "dialog_node": "handler_9_1587647775736",
+      "previous_sibling": "handler_8_1587647775736"
     },
     {
       "type": "event_handler",
       "output": {},
-      "parent": "slot_6_1586925641226",
+      "parent": "slot_7_1587647775736",
       "context": {
         "number": "@sys-number.values"
       },
       "conditions": "@sys-number.values",
       "event_name": "input",
-      "dialog_node": "handler_7_1586925641226"
+      "dialog_node": "handler_8_1587647775736"
     },
     {
-      "type": "slot",
+      "type": "standard",
+      "title": "Find local Testing Locations for covid-19",
+      "parent": "node_2_1586864419226",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "type": "Testing",
+            "action": "find_testing_loc",
+            "pincode": "<? $pincode.toString() ?>"
+          },
+          "result_variable": "webhook_result_4"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1586873452245"
+    },
+    {
+      "type": "standard",
+      "title": "fetch volunteers",
       "output": {},
-      "parent": "node_2_1586925641226",
-      "variable": "$groceryitem",
-      "dialog_node": "slot_3_1586925641226",
-      "previous_sibling": "handler_9_1586925641226"
+      "parent": "node_7_1586864353753",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "type": "volunteer",
+            "action": "find_doc_for_params",
+            "pincode": "<? $pincode.toString() ?>",
+            "category": "ngo_member"
+          },
+          "result_variable": "webhook_result_3"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1587670882281"
     },
     {
-      "type": "slot",
-      "output": {},
-      "parent": "node_2_1586925641226",
-      "variable": "$number",
-      "dialog_node": "slot_6_1586925641226",
-      "previous_sibling": "slot_3_1586925641226"
-    },
-    {
-      "type": "event_handler",
+      "type": "response_condition",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "I will need item name, quantity to continue"
+                "text": "We will place order with <?input.text?>"
               }
             ],
             "response_type": "text",
@@ -2774,28 +2381,116 @@
           }
         ]
       },
-      "parent": "node_2_1586925641226",
-      "event_name": "focus",
-      "dialog_node": "handler_9_1586925641226"
+      "parent": "node_10_1587666245731",
+      "context": {
+        "service_provider": "<?input.text?>"
+      },
+      "conditions": "$webhook_result_1.docs.size() > 0",
+      "dialog_node": "response_4_1587667121210",
+      "previous_sibling": "node_3_1587647775736"
     },
     {
-      "type": "standard",
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Service provider value is incorrect"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1587666245731",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1587667240446",
+      "previous_sibling": "response_4_1587667121210"
+    },
+    {
+      "type": "frame",
+      "title": "Prepare Order Details",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "If you develop symptoms such as fever, cough, and/or difficulty breathing, and have been in close contact with a person known to have COVID-19 or have recently traveled from an area with ongoing spread of COVID-19 , stay home and call your healthcare provider. Older patients and individuals who have severe underlying medical conditions or are immunocompromised should contact their healthcare provider early, even if their illness is mild. If you have severe symptoms, such as persistent pain or pressure in the chest, new confusion or inability to arouse, or bluish lips of face, contact your healthcare provider or emergency room and seek care immediately."
+                "text": "I am placing your order for - <br><? $groceryitem.join('<br>')  ?>"
               }
             ],
             "response_type": "text",
-            "selection_policy": "multiline"
+            "selection_policy": "sequential"
           }
         ]
       },
-      "conditions": "#Covid_Symptoms",
-      "dialog_node": "node_10_1586873886597",
-      "previous_sibling": "node_3_1586874745553"
+      "parent": "node_10_1587666245731",
+      "context": {
+        "grocery_supply": "false",
+        "service_provider": ""
+      },
+      "conditions": "$grocery_supply == \"true\"",
+      "dialog_node": "node_3_1587647775736"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Volunteer value is incorrect"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1587670882290",
+      "conditions": "anything_else",
+      "dialog_node": "response_15_1587670882290",
+      "previous_sibling": "response_14_1587670882290"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I will ask <?input.text?> to get in touch with you on your mobile : $mobile"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1587670882290",
+      "context": {
+        "volunteer": "<?input.text?>"
+      },
+      "conditions": "$webhook_result_3.docs.size() > 0",
+      "dialog_node": "response_14_1587670882290"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please tell me your area pincode"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1587014993531",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1587014993541",
+      "previous_sibling": "handler_7_1587014993541"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1587014993531",
+      "context": {
+        "pincode": "@pincode",
+        "location_captured_already": "true"
+      },
+      "conditions": "@pincode",
+      "event_name": "input",
+      "dialog_node": "handler_7_1587014993541"
     },
     {
       "type": "standard",
@@ -2836,51 +2531,6 @@
           {
             "values": [
               {
-                "text": "In case you feel that you may have contracted the virus, call Union health ministry's 24X7 helpline number: 01123978046.\nIn addition to government facilities, the ICMR has also approved some private laboratories for Covid-19 testing.\n\nWe can help you with approved testing locations in your area. For that I need your area pincode details"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "multiline"
-          }
-        ]
-      },
-      "context": {},
-      "conditions": "#Covid_Testing_Locations",
-      "dialog_node": "node_2_1586864419226",
-      "previous_sibling": "node_7_1586864353753"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Hello"
-              },
-              {
-                "text": "Hi"
-              },
-              {
-                "text": "Hey"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          }
-        ]
-      },
-      "conditions": "#General_Greetings",
-      "dialog_node": "node_4_1584218872946",
-      "previous_sibling": "Welcome"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
                 "text": "Practice everyday preventive actions to help reduce your risk of getting sick and remind everyone in your home to do the same. These actions are especially important for older adults and people who have severe chronic medical conditions: Avoid close contact with people who are sick. Cover your coughs and sneezes with a tissue and throw the tissue in the trash. Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food. If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol. Always wash hands with soap and water if hands are visibly dirty. Clean and disinfect frequently touched surfaces and objects (e.g., tables, countertops, light switches, doorknobs, and cabinet handles)."
               }
             ],
@@ -2892,6 +2542,39 @@
       "conditions": "#Covid_Protecting_Against_Infection",
       "dialog_node": "node_10_1586873732212",
       "previous_sibling": "node_10_1586873886597"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To assist you with list of volunteers supporting in your area I will need your area pincode  and address details."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "volunteer_supply": "true"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1587828422199"
+      },
+      "conditions": "#volunteer_help",
+      "dialog_node": "node_7_1586864353753",
+      "previous_sibling": "node_10_1587822807580"
+    },
+    {
+      "type": "folder",
+      "title": "Supplies And Order",
+      "dialog_node": "node_10_1587822807580",
+      "previous_sibling": "node_4_1584218872946"
     },
     {
       "type": "standard",
@@ -2928,6 +2611,31 @@
           {
             "values": [
               {
+                "text": "Hello"
+              },
+              {
+                "text": "Hi"
+              },
+              {
+                "text": "Hey"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_4_1584218872946",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
                 "text": "A novel coronavirus is a new coronavirus that has not been previously identified. The virus causing coronavirus disease 2019 (COVID-19), is not the same as the coronaviruses that commonly circulate among humans and cause mild illness, like the common cold. A diagnosis with coronavirus 229E, NL63, OC43, or HKU1 is not the same as a COVID-19 diagnosis. Patients with COVID-19 will be evaluated and cared for differently than patients with common coronavirus diagnosis."
               }
             ],
@@ -2942,15 +2650,30 @@
     },
     {
       "type": "standard",
-      "title": "Identify Category of Supplies Needed",
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In case you feel that you may have contracted the virus, call Union health ministry's 24X7 helpline number: 01123978046.\nIn addition to government facilities, the ICMR has also approved some private laboratories for Covid-19 testing.\n\nWe can help you with approved testing locations in your area. For that I need your area pincode details"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
       },
-      "conditions": "#supplies_needed",
-      "dialog_node": "node_10_1584231342659",
-      "previous_sibling": "node_4_1584218872946"
+      "context": {
+        "testing_loc_search": "true"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1587828422199"
+      },
+      "conditions": "#Covid_Testing_Locations",
+      "dialog_node": "node_2_1586864419226",
+      "previous_sibling": "node_7_1586864353753"
     },
     {
       "type": "standard",
@@ -2959,25 +2682,17 @@
           {
             "values": [
               {
-                "text": "To assist you with list of volunteers supporting in your area I will need your area pincode  andaddress details."
+                "text": "If you develop symptoms such as fever, cough, and/or difficulty breathing, and have been in close contact with a person known to have COVID-19 or have recently traveled from an area with ongoing spread of COVID-19 , stay home and call your healthcare provider. Older patients and individuals who have severe underlying medical conditions or are immunocompromised should contact their healthcare provider early, even if their illness is mild. If you have severe symptoms, such as persistent pain or pressure in the chest, new confusion or inability to arouse, or bluish lips of face, contact your healthcare provider or emergency room and seek care immediately."
               }
             ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "multiline"
           }
         ]
       },
-      "context": {
-        "volunteer_supply": "true"
-      },
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "condition",
-        "dialog_node": "node_10_1586981877536"
-      },
-      "conditions": "#volunteer_help",
-      "dialog_node": "node_7_1586864353753",
-      "previous_sibling": "node_10_1584231342659"
+      "conditions": "#Covid_Symptoms",
+      "dialog_node": "node_10_1586873886597",
+      "previous_sibling": "node_3_1586874745553"
     },
     {
       "type": "standard",
