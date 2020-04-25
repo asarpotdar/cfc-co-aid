@@ -1,0 +1,69 @@
+/**
+  *
+  * main() will be run when you invoke this action
+  *
+  * @param Cloud Functions actions accept a single parameter, which must be a JSON object.
+  *
+  * @return The output of this action, which must be a JSON object.
+  *
+  */
+ //This is a dispatcher action to call specific action sequence based on parameters passed
+ //this is to handle single webhook URL configuration constraint for Watson dialogue
+function main(params) {
+    
+    let json;
+
+    if(params.action == "find_doc_for_params"){
+        
+        const request = require('request');
+        
+        const options = {
+            url: 'https://us-south.functions.cloud.ibm.com/api/v1/web/atul.sarpotdar%40capgemini.com_dev/default/retrieve_sp_for_queryindex_sequence.json?pincode='+params.pincode+'&category='+params.category+'&type='+params.type,
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json'
+            }
+        };
+        
+        request(options, function(err, res, body) {
+            json = JSON.parse(body);
+            console.log(json);
+            
+        });
+        
+        return new Promise(function(resolve, reject) {
+       setTimeout(function() {
+         resolve(json);
+       }, 2000);
+     })
+
+    }
+    
+        if(params.action == "find_testing_loc"){
+        
+        const request = require('request');
+        
+        const options = {
+            url: 'https://us-south.functions.cloud.ibm.com/api/v1/web/atul.sarpotdar%40capgemini.com_dev/default/retrieve_sp_for_queryindex_sequence.json?pincode='+params.pincode+'&type='+params.type,
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json'
+            }
+        };
+        
+        request(options, function(err, res, body) {
+            json = JSON.parse(body);
+            console.log(json);
+            
+        });
+        
+        return new Promise(function(resolve, reject) {
+       setTimeout(function() {
+         resolve(json);
+       }, 2000);
+     })
+
+    }
+
+
+}

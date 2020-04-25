@@ -1,0 +1,18 @@
+/**
+  *
+  * main() will be run when you invoke this action
+  *
+  * @param Cloud Functions actions accept a single parameter, which must be a JSON object.
+  *
+  * @return The output of this action, which must be a JSON object.
+  *
+  */
+  // retrieves all doc entries from cloudant DB
+function main(params) {
+  return {
+    params: {
+      include_docs: true
+      //pincode:params.pincode
+    }
+  };
+}
