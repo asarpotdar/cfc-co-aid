@@ -7,7 +7,7 @@
   * @return The output of this action, which must be a JSON object.
   *
   */
- //This is a dispatcher action to call specific action sequence based on parameters passed
+ //dispatcher action to call specific action sequence based on parameters
  //this is to handle single webhook URL configuration constraint for Watson dialogue
 function main(params) {
     
@@ -65,5 +65,55 @@ function main(params) {
 
     }
 
+    if(params.action == "register_order"){
+        
+        const request = require('request');
+        
+        const options = {
+            url: 'https://us-south.functions.cloud.ibm.com/api/v1/web/atul.sarpotdar%40capgemini.com_dev/default/register_order_sequence.json?pincode='+params.pincode+'&ordered_by='+params.mobile,
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json'
+            }
+        };
+        
+        request(options, function(err, res, body) {
+            json = JSON.parse(body);
+            console.log(json);
+            
+        });
+        
+        return new Promise(function(resolve, reject) {
+       setTimeout(function() {
+         resolve(json);
+       }, 2000);
+     })
+        
+    }
+    
+    if(params.action == "display_items_on_map"){
+        
+        const request = require('request');
+        
+        const options = {
+            url: 'https://image.maps.ls.hereapi.com/mia/1.6/mapview?apiKey=PPHYVFWhYqiH-bfghPvlSGg5l_Kxwulgt18moN39qq0&lat=18.48565&lon=73.81477',
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json'
+            }
+        };
+        
+        request(options, function(err, res, body) {
+            //json = JSON.parse(body);
+            console.log(body);
+            
+        });
+        
+        return new Promise(function(resolve, reject) {
+       setTimeout(function() {
+         resolve(json);
+       }, 2000);
+     })
+    }
 
 }
