@@ -70,7 +70,7 @@
       "intent": "Covid_Symptoms",
       "examples": [
         {
-          "text": "What are symptoms?"
+          "text": "How do i know if I'm sick"
         },
         {
           "text": "Do I need to get tested?"
@@ -97,7 +97,7 @@
           "text": "am i sick"
         },
         {
-          "text": "How do i know if I'm sick"
+          "text": "What are symptoms?"
         }
       ],
       "description": "Symptoms related to Covid 19."
@@ -184,7 +184,7 @@
       "intent": "supplies_needed",
       "examples": [
         {
-          "text": "who can supply Dairy Products"
+          "text": "Who can supply medicines"
         },
         {
           "text": "Can I get bread",
@@ -552,7 +552,7 @@
           "text": "Who has Grocery Items"
         },
         {
-          "text": "Who can supply medicines"
+          "text": "who can supply Dairy Products"
         },
         {
           "text": "Who can provide me Sugar"
@@ -586,15 +586,6 @@
         },
         {
           "text": "Who is this?"
-        },
-        {
-          "text": "What's up?"
-        },
-        {
-          "text": "What's new?"
-        },
-        {
-          "text": "Ok take me back"
         },
         {
           "text": "How have you been?"
@@ -645,13 +636,22 @@
           "text": "Good morning"
         },
         {
-          "text": "Good evening"
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Ok take me back"
         },
         {
           "text": "Looking good eve"
         },
         {
           "text": "How r u?"
+        },
+        {
+          "text": "Good evening"
         },
         {
           "text": "Good day"
@@ -674,25 +674,25 @@
       "intent": "Covid_Testing_Locations",
       "examples": [
         {
-          "text": "Can I get tested at my doctors?"
-        },
-        {
-          "text": "Can I get tested at Walgreens?"
-        },
-        {
           "text": "Can I test myself at my house?"
-        },
-        {
-          "text": "Where can I get tested?"
-        },
-        {
-          "text": "testing locations?"
         },
         {
           "text": "testing spots for coronavirus?"
         },
         {
+          "text": "Where can I get tested?"
+        },
+        {
+          "text": "Can I get tested at Walgreens?"
+        },
+        {
+          "text": "Can I get tested at my doctors?"
+        },
+        {
           "text": "How do I get tested?"
+        },
+        {
+          "text": "testing locations?"
         }
       ],
       "description": "Where to get tested for Covid 19."
@@ -700,9 +700,6 @@
     {
       "intent": "Covid_Protecting_Against_Infection",
       "examples": [
-        {
-          "text": "How do I prevent myself from getting sick?"
-        },
         {
           "text": "hot to take precaution"
         },
@@ -713,13 +710,19 @@
           "text": "What is the risk of my child becoming sick with COVID-19?"
         },
         {
-          "text": "Is it even possible to avoid the virus?"
+          "text": "How can I protect my family from the spread of coronavirus?"
         },
         {
-          "text": "Do I need to wear a face mask?"
+          "text": "What’s the best way to prevent coronavirus?"
         },
         {
           "text": "what should i do to contain the spread of the virus"
+        },
+        {
+          "text": "How to Prevent the Spread of the Virus"
+        },
+        {
+          "text": "How do I prevent myself from getting sick?"
         },
         {
           "text": "How often should I wash my hands?"
@@ -731,19 +734,34 @@
           "text": "how do I ensure my family is safe?"
         },
         {
-          "text": "How can I protect my family from the spread of coronavirus?"
+          "text": "Is it even possible to avoid the virus?"
         },
         {
-          "text": "What’s the best way to prevent coronavirus?"
-        },
-        {
-          "text": "How to Prevent the Spread of the Virus"
+          "text": "Do I need to wear a face mask?"
         },
         {
           "text": "How do I avoid covid-19?"
         }
       ],
       "description": "How to prevent infection."
+    },
+    {
+      "intent": "containment_zone",
+      "examples": [
+        {
+          "text": "Could you please show me the areas where covid cases have been found"
+        },
+        {
+          "text": "Is my area under containment zone"
+        },
+        {
+          "text": "Which are red zone areas for pune"
+        },
+        {
+          "text": "where are the covid 19 cases found"
+        }
+      ],
+      "description": ""
     },
     {
       "intent": "available",
@@ -757,9 +775,6 @@
     {
       "intent": "Covid_Event_Shutdowns",
       "examples": [
-        {
-          "text": "What sports are being cancelled?"
-        },
         {
           "text": "Will I get a refund for a ticket I purchased?"
         },
@@ -776,7 +791,7 @@
           "text": "When will the NCAA championships be held?"
         },
         {
-          "text": "When will the NHL return?"
+          "text": "events and large gatherings"
         },
         {
           "text": "How do I know if my concert is cancelled?"
@@ -788,7 +803,10 @@
           "text": "Are events being shut down?"
         },
         {
-          "text": "events and large gatherings"
+          "text": "What sports are being cancelled?"
+        },
+        {
+          "text": "When will the NHL return?"
         }
       ],
       "description": "Information on events and large groups."
@@ -797,10 +815,10 @@
       "intent": "Covid_Description",
       "examples": [
         {
-          "text": "Is the coronavirus the same as MERS?"
+          "text": "what is novel coronavirus?"
         },
         {
-          "text": "Is the coronavirus the same as a cold?"
+          "text": "Is the coronavirus the same as MERS?"
         },
         {
           "text": "How is COVID-19 spread?"
@@ -827,7 +845,7 @@
           "text": "item"
         },
         {
-          "text": "what is novel coronavirus?"
+          "text": "Is the coronavirus the same as a cold?"
         }
       ],
       "description": "Overview of Covid 19."
@@ -836,34 +854,13 @@
       "intent": "General_Ending",
       "examples": [
         {
-          "text": "Get lost"
-        },
-        {
-          "text": "Finished now, good bye"
-        },
-        {
-          "text": "Ending this session"
-        },
-        {
-          "text": "End trial"
-        },
-        {
-          "text": "Cya later"
-        },
-        {
-          "text": "Catch you later"
-        },
-        {
-          "text": "Bye now"
-        },
-        {
           "text": "Bye bye"
         },
         {
           "text": "Have a nice day?"
         },
         {
-          "text": "I am out of here"
+          "text": "That's everything"
         },
         {
           "text": "That is all"
@@ -899,7 +896,25 @@
           "text": "I have got to go"
         },
         {
-          "text": "That's everything"
+          "text": "End trial"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
         },
         {
           "text": "I d like to stop doing this"
@@ -932,19 +947,22 @@
           "text": "Go away"
         },
         {
-          "text": "It was nice chatting with you"
+          "text": "Get lost"
         },
         {
-          "text": "I'm leaving now"
+          "text": "Finished now, good bye"
         },
         {
-          "text": "Im good thank you"
+          "text": "Ending this session"
         },
         {
-          "text": "Time to go"
+          "text": "Cya later"
         },
         {
-          "text": "I am leaving"
+          "text": "Catch you later"
+        },
+        {
+          "text": "Bye now"
         }
       ],
       "description": "End the conversation."
@@ -952,15 +970,6 @@
     {
       "intent": "Covid_Testing_Results",
       "examples": [
-        {
-          "text": "Do my test results come in the mail?"
-        },
-        {
-          "text": "Who will give me my COVID test results?"
-        },
-        {
-          "text": "My doctor hasn't given me my test results back yet."
-        },
         {
           "text": "test outcomes?"
         },
@@ -972,6 +981,15 @@
         },
         {
           "text": "How can I get my test results?"
+        },
+        {
+          "text": "Do my test results come in the mail?"
+        },
+        {
+          "text": "Who will give me my COVID test results?"
+        },
+        {
+          "text": "My doctor hasn't given me my test results back yet."
         }
       ],
       "description": "How to get Covid 19 test results."
@@ -980,19 +998,10 @@
       "intent": "Covid_Cleaning_Disinfecting",
       "examples": [
         {
-          "text": "how do i get rid of germs at my home"
-        },
-        {
-          "text": "What cleaning methods kill the coronavirus?"
-        },
-        {
-          "text": "Should I spray myself or my kids with disinfectant?"
+          "text": "How often do I need to clean my home to prevent the spread of coronavirus?"
         },
         {
           "text": "Are there disinfectants available that can inactivate (kill) COVID-19?"
-        },
-        {
-          "text": "How often do I need to clean my home to prevent the spread of coronavirus?"
         },
         {
           "text": "All the stores are out of disinfecting wipes, what do I do?"
@@ -1010,7 +1019,16 @@
           "text": "How do I clean my home properly?"
         },
         {
+          "text": "how do i get rid of germs at my home"
+        },
+        {
           "text": "Whats the difference between cleaning and disinfecting?"
+        },
+        {
+          "text": "What cleaning methods kill the coronavirus?"
+        },
+        {
+          "text": "Should I spray myself or my kids with disinfectant?"
         }
       ],
       "description": "How to clean and disinfect."
@@ -1019,34 +1037,34 @@
       "intent": "Covid_School_Shutdown",
       "examples": [
         {
-          "text": "Can my child go to school?"
-        },
-        {
-          "text": "What does the ordered school closure mean for report cards?"
-        },
-        {
           "text": "Are schools shut down?"
         },
         {
-          "text": "How can I get the latest news on my school closure?"
-        },
-        {
-          "text": "How will the shutdown impact my child's attendance records?"
-        },
-        {
-          "text": "are schools open?"
+          "text": "When will the schools open?"
         },
         {
           "text": "Should my child stay home from school?"
         },
         {
-          "text": "When will the schools open?"
+          "text": "are schools open?"
         },
         {
           "text": "What happens after the ordered three-week closure period ends?"
         },
         {
           "text": "Will students still graduate this year?"
+        },
+        {
+          "text": "How will the shutdown impact my child's attendance records?"
+        },
+        {
+          "text": "Can my child go to school?"
+        },
+        {
+          "text": "How can I get the latest news on my school closure?"
+        },
+        {
+          "text": "What does the ordered school closure mean for report cards?"
         }
       ],
       "description": "Information on local schools."
@@ -1054,9 +1072,6 @@
     {
       "intent": "volunteer_help",
       "examples": [
-        {
-          "text": "Anyone who can collect my grocery item list order"
-        },
         {
           "text": "I need volunteer help"
         },
@@ -1068,6 +1083,9 @@
         },
         {
           "text": "Anyone who can provide voluntary assistance in my area"
+        },
+        {
+          "text": "Anyone who can collect my grocery item list order"
         }
       ],
       "description": "volunteer help required"
@@ -2434,13 +2452,10 @@
       "output": {
         "generic": [
           {
-            "values": [
-              {
-                "text": "We will place order with <?input.text?>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
+            "title": "$service_provider",
+            "source": "https://image.maps.ls.hereapi.com/mia/1.6/mapview?apiKey=PPHYVFWhYqiH-bfghPvlSGg5l_Kxwulgt18moN39qq0&c=18.65796,73.73931 &z=15",
+            "description": "near - $area",
+            "response_type": "image"
           }
         ]
       },
@@ -2589,6 +2604,18 @@
     },
     {
       "type": "standard",
+      "title": "Map View for covid 19 cases & zones",
+      "output": {
+        "generic": [
+          {
+            "title": "Containment Zones",
+            "source": "https://image.maps.ls.hereapi.com/mia/1.6/heat?apiKey=PPHYVFWhYqiH-bfghPvlSGg5l_Kxwulgt18moN39qq0&a0=18.50315,73.79803 &rad0=3k&l0=2&a1=18.50927,73.93251&rad1=3k&l1=2",
+            "description": "Map showing red zone for your city",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#containment_zone",
       "dialog_node": "node_6_1586874559999",
       "previous_sibling": "node_10_1586873732212"
     },
