@@ -7,8 +7,5 @@
 
         ></gradient>
 
-    <corners
-        android:radius="20dp"
-
-        ></corners>
+    <corners android:radius="20dp"></corners>
 </shape>

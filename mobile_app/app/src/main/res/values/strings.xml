@@ -1,8 +1,20 @@
 <resources>
-    <string name="app_name">App</string>
+    <string name="app_name">Co-Aid</string>
+
+
+    <string-array name="type">
+        <item>Service Provider</item>
+        <item>Volunteer</item>
+        <item>Customer</item>
+    </string-array>
 
     <string-array name="service_provider">
-        <item>Volunteer</item>
-        <item>Health Worker</item>
+        <item>Grocery</item>
+        <item>Dairy</item>
+        <item>Vegetables</item>
+        <item>Fruits</item>
+        <item>Medicine</item>
     </string-array>
+
+    <string name="title_activity_maps">Map</string>
 </resources>

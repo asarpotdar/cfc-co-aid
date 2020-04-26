@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Login">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/images"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="30dp"/>
+    <!--<ImageView-->
+        <!--android:layout_width="208dp"-->
+        <!--android:layout_height="194dp"-->
+        <!--android:layout_margin="50dp"-->
+        <!--android:src="@drawable/images" />-->
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
-        android:layout_marginTop="30dp"
-        android:text="Username"
+        android:text="Email/Mobile"
+        android:layout_marginTop="100dp"
         android:textColor="#694591" />
 
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/edtUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp" />
@@ -43,10 +41,10 @@
         android:layout_marginHorizontal="30dp"
         android:layout_marginLeft="50dp"
         android:inputType="textPassword"
-        android:drawableRight="@drawable/ic_show_password"/>
+        android:drawableRight="@drawable/ic_show_password" />
 
     <Button
-        android:id="@+id/loginbutton"
+        android:id="@+id/btnLogin"
         android:layout_width="182dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
@@ -55,8 +53,9 @@
         android:backgroundTint="#8D9BF0"
         android:text="Login" />
 
+
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnRegisteration"
         android:layout_width="182dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
