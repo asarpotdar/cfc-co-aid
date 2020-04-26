@@ -23,25 +23,25 @@
 
     </group>
     <group>
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_share"
-                android:title="Share">
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share"
+                    android:title="Share">
 
-            </item>
-        </menu>
-    </item>
+                </item>
+            </menu>
+        </item>
     </group>
-<group>
-    <item
-        android:id="@+id/help"
-        android:title="Help"
-    android:icon="@drawable/ic_help"></item>
-    <item
-        android:id="@+id/logout"
-        android:icon="@drawable/ic_logout"
-        android:title="Log Out"></item>
-</group>
+    <group>
+        <item
+            android:id="@+id/help"
+            android:title="Help"
+            android:icon="@drawable/ic_help"></item>
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Log Out"></item>
+    </group>
 </menu>
