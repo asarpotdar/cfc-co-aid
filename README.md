@@ -5,7 +5,7 @@ co-aid is application for providing assistance to residents, service providers, 
   <p><a href="https://youtu.be/4gT3QZyRcVs" rel="nofollow"><img src="co_aid_youtube_video_icon.PNG" alt="Watch the video" style="max-width:100%;"></a></p>
 </p>
 <p>
-<b>Problem Statement</b> <br>
+<b><h2>Problem Statement</h2></b> <br>
 <br>
 <b>Supplies for essential services in ‘Containment Zones’</b>
 <br><ul>
@@ -36,12 +36,12 @@ With increasing containments zones the challenges are also increasing for commun
 
 </p>
 <p>
-<b>Idea</b><br> 
+<b><h2>Idea</h2></b><br> 
 It basically connects residents locked-down in containment zones or covid hotspots, local service providers for essential goods and services, local volunteers approved by authorities/govt and health workers/Rapid Response Team (RRT) team members.
 
 
 <br><br>
-<b>Flow</b><br>
+<b><h2>Flow</h2></b><br>
 
 1. Using AI based virtual assistant users can find or locate available vendors in nearby area and place the orders for essential supplies. AI based bot will also help them locate covid test centers, locally available health/RRT team members and volunteers for any assistance.
 2. The service Providers even those who dont have any e-commerse sites/online presence for their business can be part of this. They will recieve requests submitted on bot and they can process the requested orders; get the supplies ready for delivery by updating order status with bill.
@@ -52,7 +52,7 @@ It basically connects residents locked-down in containment zones or covid hotspo
 7. The data gathered can also help to present mapviews for covid containment zones/ hotspot zones in app for users
 
 <br><br>
-<b>Why Co-Aid is better ? because it helps - </b> 
+<b><h2>Why Co-Aid is better ? because it helps - </h2></b> 
 <br>
 <b>1. connecting local service providers even without any e-commerce site/ online presence which will help save their business during this crisis and even after crisis period ends</b>
 
@@ -62,17 +62,24 @@ It basically connects residents locked-down in containment zones or covid hotspo
 <br>
 <br>
 <p>
-<b>Use Case Scenarios & working chatbot Screens for reference</b><br></p>
+<b><h2>Use Case Scenarios & working chatbot Screens for reference</h2></b><br></p>
 <img src="/key_use_cases/chatbot.png">
 <img src="/key_use_cases/bot_service_order.png">
 <img src="/key_use_cases/service_provider_receives_order.png">
 <img src="/key_use_cases/volunteer_1.png">
 <img src="/key_use_cases/covid_case_identification_report.png">
+<br>
+<img src="/screenshots/bot_3.png">
+<img src="/screenshots/bot_4.png">
+<img src="/screenshots/bot_5.png">
+<img src="/screenshots/bot_6.png">
+<img src="/screenshots/bot_7.png">
+<img src="/screenshots/bot_8.png">
 
 <br>
 
 <p>
-<b>Solution Overview</b><br></p>
+<b><h2>Solution Overview</h2></b><br></p>
 <img src="/co_aid_solution_overview.png">  
 <br>
 <br>
@@ -80,12 +87,12 @@ It basically connects residents locked-down in containment zones or covid hotspo
 
 
 <p>
-<b>High Level Architecture</b><br></p>
+<b><h2>High Level Architecture</h2></b><br></p>
 <img src="/co_aid_high_level_architecture.png">
 
 
 <br>
-<b>Technology Used</b> 
+<b><h2>Technology Used</h2></b> 
 <br>
 Co-Aid Application builds an ecosystem/network with combined use of IBM service offerings and some other technologies available today and provides a technical solution we are looking for –
 <ul>
