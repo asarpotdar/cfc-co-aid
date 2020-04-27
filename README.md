@@ -12,9 +12,9 @@ co-aid is application for providing assistance to residents, service providers, 
 <li>With the COVID-19 crisis, we have already seen problems with the local supply of grocery items, medicines and other supplies during lock-down especially for elderly and other vulnerable people.
 With increasing containments zones the challenges are also increasing for communities as-
 <ul>
-<li><b>NOT every local vendor has online presence</li>
-<li>NOT every volunteer is provided with means to serve </li>
-<li>NOT everyone is indepedent and well-equipped</li></b>
+<li><b>NOT every local vendor has online presence</b></li>
+<li><b>NOT every volunteer is provided with means to serve</b> </li>
+<li><b>NOT everyone is indepedent and well-equipped</b></li>
 </ul>
 </li>
 
@@ -40,7 +40,7 @@ With increasing containments zones the challenges are also increasing for commun
 It basically connects residents locked-down in containment zones or covid hotspots, local service providers for essential goods and services, local volunteers approved by authorities/govt and health workers/Rapid Response Team (RRT) team members.
 
 
-<br>
+<br><br>
 <b>Flow</b><br>
 
 1. Using AI based virtual assistant users can find or locate available vendors in nearby area and place the orders for essential supplies. AI based bot will also help them locate covid test centers, locally available health/RRT team members and volunteers for any assistance.
@@ -51,23 +51,23 @@ It basically connects residents locked-down in containment zones or covid hotspo
 6. This on field data capturing and quick reporting will help to compile data related to covid cases in in speedy way and accelerate further decision making
 7. The data gathered can also help to present mapviews for covid containment zones/ hotspot zones in app for users
 
-
+<br><br>
 <b>Why Co-Aid is better ? because it helps - </b> 
 <br>
-1. connecting local service providers even without any e-commerce site/ online presence which will help save their business during this crisis and even after crisis period ends
+<b>1. connecting local service providers even without any e-commerce site/ online presence which will help save their business during this crisis and even after crisis period ends</b>
 
-2. Volunteers to be easily accessible and to serve even through simple activities such as supply deliveries and assitance for vulnerables
+<b>2. Volunteers to be easily accessible and to serve even through simple activities such as supply deliveries and assitance for vulnerables</b>
 
-3. on field data capturing and reporting about covid cases by Health Workers/RRT Members for decision making
+<b>3. on field data capturing and reporting about covid cases by Health Workers/RRT Members for decision making</b>
 <br>
-
+<br>
 <p>
 <b>Use Case Scenarios & working chatbot Screens for reference</b><br></p>
-<img src="/chatbot.png">
-<img src="/bot_service_order.png">
-<img src="/service_provider_receives_order.png">
-<img src="/volunteer_1.png">
-<img src="/covid_case_identification_report.png">
+<img src="/key_use_cases/chatbot.png">
+<img src="/key_use_cases/bot_service_order.png">
+<img src="/key_use_cases/service_provider_receives_order.png">
+<img src="/key_use_cases/volunteer_1.png">
+<img src="/key_use_cases/covid_case_identification_report.png">
 
 <br>
 
@@ -88,17 +88,17 @@ It basically connects residents locked-down in containment zones or covid hotspo
 <b>Technology Used</b> 
 <br>
 Co-Aid Application builds an ecosystem/network with combined use of IBM service offerings and some other technologies available today and provides a technical solution we are looking for –
-
-IBM Watson (AI Platform) – for deploying cognitive virtual assistant i.e. ChatBot to interact with residents
-IBM Cloud Functions – IBM’s Function as a Service Platform based on Apache OpenWhisk
-IBM Cloudant – A distributed database based on Apache CouchDB for storing documents etc.
-IBM Speech to Text and Text to Speech Services to convert audio and voice into text and vice versa.
-IBM Cloud Platform for providing high availability, more security and scalability for this ecosystem
-Node.js
-IBM Push Notifications – for providing scalable and reliable Push Notification Services to users
-IBM Mobile Foundation – for building mobile app
-HERE Location Services -  for maps, searching, and routing
-
+<ul>
+<li>IBM Watson (AI Platform) – for deploying cognitive virtual assistant i.e. ChatBot to interact with residents</li>
+<li>IBM Cloud Functions – IBM’s Function as a Service Platform based on Apache OpenWhisk</li>
+<li>IBM Cloudant – A distributed database based on Apache CouchDB for storing documents etc.</li>
+<li>IBM Speech to Text and Text to Speech Services to convert audio and voice into text and vice versa.</li>
+<li>IBM Cloud Platform for providing high availability, more security and scalability for this ecosystem</li>
+<li>Node.js</li>
+<li>IBM Push Notifications – for providing scalable and reliable Push Notification Services to users</li>
+<li>IBM Mobile Foundation – for building mobile app</li>
+<li>HERE Location Services -  for maps, searching, and routing</li>
+</ul>
 </p>
 
 
