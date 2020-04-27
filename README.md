@@ -2,6 +2,7 @@
 co-aid is application for providing assistance to residents, service providers, govt officials and volunteers during covid-19 crisis. 
 <p>
   <div>https://youtu.be/Bf7bF_-mO9g</div>
+  <p><a href="https://youtu.be/Bf7bF_-mO9g" rel="nofollow"><img src="co_aid_youtube_video_icon.png" alt="Watch the video" style="max-width:100%;"></a></p>
 </p>
 <p>
 <b>Problem Statement</b> <br>
