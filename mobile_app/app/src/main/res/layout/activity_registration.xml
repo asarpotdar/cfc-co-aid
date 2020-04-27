@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registration">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:paddingLeft="110dp"
+                android:paddingTop="5dp"
+                android:text="Registration"
+                android:textStyle="bold"
+                android:textColor="#5f34fe"
+                android:textSize="30dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="First Name"
+            android:layout_marginTop="115dp"
+            android:textColor="#694591" />
+
+        <EditText
+            android:id="@+id/edtFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginBottom="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="Last Name"
+            android:layout_marginTop="180dp"
+            android:textColor="#694591" />
+
+        <EditText
+            android:id="@+id/edtLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="Address"
+            android:layout_marginTop="720dp"
+            android:textColor="#694591" />
+
+        <EditText
+            android:id="@+id/edtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="740dp"
+            android:layout_marginBottom="30dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="Pin Code"
+            android:layout_marginTop="790dp"
+            android:textColor="#694591" />
+
+        <EditText
+            android:id="@+id/edtPin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:inputType="number"
+            android:layout_marginTop="820dp"
+            android:layout_marginBottom="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="Type"
+            android:layout_marginTop="570dp"
+            android:textColor="#694591" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="600dp"
+            android:text="Service Provider"></Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="Service Provider"
+            android:layout_marginTop="650dp"
+            android:textColor="#694591" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="670dp"
+            android:text="Service Provider"></Spinner>
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="30"
+            android:layout_marginHorizontal="30dp"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="72dp"
+            android:layout_marginTop="350dp"
+            tools:layout_editor_absoluteY="102dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="Password"
+            android:layout_marginTop="420dp"
+            android:textColor="#694591" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="30"
+            android:layout_marginHorizontal="30dp"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="72dp"
+            android:layout_marginTop="430dp"
+            tools:layout_editor_absoluteY="102dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="Confirm Password"
+            android:layout_marginTop="490dp"
+            android:textColor="#694591" />
+
+        <EditText
+            android:id="@+id/cfmpassowrd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="30"
+            android:layout_marginHorizontal="30dp"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="72dp"
+            android:layout_marginTop="510dp"
+            tools:layout_editor_absoluteY="102dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="Mobile Number"
+            android:layout_marginTop="250dp"
+            android:textColor="#694591" />
+
+        <EditText
+            android:id="@+id/edtMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="30"
+            android:layout_marginHorizontal="30dp"
+            android:inputType="phone"
+            tools:layout_editor_absoluteX="72dp"
+            android:layout_marginTop="270dp"
+            tools:layout_editor_absoluteY="102dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="E Mail"
+            android:layout_marginTop="325dp"
+            android:textColor="#694591" />
+
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#8D9BF0"
+            android:background="@drawable/button_bg"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="870dp"
+            android:text="Submit" />
+
+    </RelativeLayout>
+</ScrollView>
