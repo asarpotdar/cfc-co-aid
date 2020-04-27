@@ -69,12 +69,8 @@ It basically connects residents locked-down in containment zones or covid hotspo
 <img src="/key_use_cases/volunteer_1.png">
 <img src="/key_use_cases/covid_case_identification_report.png">
 <br>
-<img src="/screenshots/bot_3.png">
-<img src="/screenshots/bot_4.png">
-<img src="/screenshots/bot_5.png">
-<img src="/screenshots/bot_6.png">
-<img src="/screenshots/bot_7.png">
-<img src="/screenshots/bot_8.png">
+<i><b> For chatbot screenshots please refer screenshots folder uploaded in this repoistory<b></i>
+
 
 <br>
 
