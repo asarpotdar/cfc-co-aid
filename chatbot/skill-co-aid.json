@@ -1097,88 +1097,7 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "gloves",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "bag of rice",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "apples",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "water bottles",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "vegetablesAndFruits",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "vegetables",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "toilet paper",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "paper towel",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "milk",
-          "synonyms": [
-            "packet of milk"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "mask",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "hand sanitizer",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "groceryItems",
-          "synonyms": [
-            "grocery kits",
-            "grocery",
-            "grocery kit"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "gallon of milk",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "survival kit",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "fruits",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "food packets",
+          "value": "bread",
           "synonyms": []
         },
         {
@@ -1231,7 +1150,68 @@
         },
         {
           "type": "synonyms",
-          "value": "bread",
+          "value": "toilet paper",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "paper towel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "milk",
+          "synonyms": [
+            "packet of milk"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mask",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hand sanitizer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "groceryItems",
+          "synonyms": [
+            "grocery kits",
+            "grocery",
+            "grocery kit"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "gloves",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "gallon of milk",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "fruits",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "survival kit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "medicines",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "food packets",
           "synonyms": []
         },
         {
@@ -1248,6 +1228,31 @@
           "type": "synonyms",
           "value": "bananas",
           "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bag of rice",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "apples",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "water bottles",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "vegetablesAndFruits",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "vegetables",
+          "synonyms": []
         }
       ],
       "fuzzy_match": true
@@ -1255,13 +1260,6 @@
     {
       "entity": "unit",
       "values": [
-        {
-          "type": "synonyms",
-          "value": "packet",
-          "synonyms": [
-            "bag"
-          ]
-        },
         {
           "type": "synonyms",
           "value": "kg",
@@ -1275,6 +1273,13 @@
           "synonyms": [
             "ltr"
           ]
+        },
+        {
+          "type": "synonyms",
+          "value": "packet",
+          "synonyms": [
+            "bag"
+          ]
         }
       ],
       "fuzzy_match": true
@@ -1282,11 +1287,6 @@
     {
       "entity": "groceryitems",
       "values": [
-        {
-          "type": "synonyms",
-          "value": "sugar",
-          "synonyms": []
-        },
         {
           "type": "synonyms",
           "value": "jaggery",
@@ -1328,6 +1328,11 @@
         {
           "type": "synonyms",
           "value": "toor dal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sugar",
           "synonyms": []
         }
       ],
@@ -1399,7 +1404,7 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "2222",
+          "value": "1111",
           "synonyms": []
         },
         {
@@ -1409,7 +1414,7 @@
         },
         {
           "type": "synonyms",
-          "value": "1111",
+          "value": "2222",
           "synonyms": []
         }
       ],
@@ -1787,6 +1792,32 @@
       "dialog_node": "handler_10_1587668087164"
     },
     {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "please enter mobile number (in format : 91- <10 digit number>)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1587831036026",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1587831036032",
+      "previous_sibling": "handler_4_1587831036032"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1587831036026",
+      "context": {
+        "mobile": "<? @contact_no.literal ?>"
+      },
+      "conditions": "@contact_no:mobile",
+      "event_name": "input",
+      "dialog_node": "handler_4_1587831036032"
+    },
+    {
       "type": "response_condition",
       "output": {
         "text": {
@@ -1836,32 +1867,6 @@
       "parent": "slot_4_1586863584864",
       "event_name": "input",
       "dialog_node": "handler_2_1586863584889"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "please enter mobile number"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_6_1587831036026",
-      "event_name": "focus",
-      "dialog_node": "handler_9_1587831036032",
-      "previous_sibling": "handler_4_1587831036032"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_6_1587831036026",
-      "context": {
-        "mobile": "<? @contact_no.literal ?>"
-      },
-      "conditions": "@contact_no:mobile",
-      "event_name": "input",
-      "dialog_node": "handler_4_1587831036032"
     },
     {
       "type": "standard",
@@ -2156,7 +2161,7 @@
         "selector": "condition",
         "dialog_node": "node_5_1587828422199"
       },
-      "conditions": "@supplies:(groceryItems)",
+      "conditions": "@supplies:(groceryItems) || @supplies:dairyItems || @supplies:vegetablesAndFruits || @supplies:medicines",
       "dialog_node": "node_5_1587649401271"
     },
     {
