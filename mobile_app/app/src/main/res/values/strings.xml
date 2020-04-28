@@ -1,11 +1,17 @@
 <resources>
-    <string name="app_name">Co-Aid</string>
+    <string name="app_name">CoAid</string>
 
 
     <string-array name="type">
         <item>Service Provider</item>
         <item>Volunteer</item>
+        <item>Health Worker</item>
         <item>Customer</item>
+    </string-array>
+
+    <string-array name="health_worker_type">
+        <item>Travel</item>
+        <item>Community</item>
     </string-array>
 
     <string-array name="service_provider">
@@ -16,5 +22,4 @@
         <item>Medicine</item>
     </string-array>
 
-    <string name="title_activity_maps">Map</string>
 </resources>
