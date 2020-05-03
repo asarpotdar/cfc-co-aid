@@ -86,7 +86,7 @@ It basically connects residents locked-down in containment zones or covid hotspo
 <b><h2>High Level Architecture</h2></b><br></p>
 <img src="/co_aid_high_level_architecture.png">
 
-
+<br>
 <br>
 <b><h2>Technology Used</h2></b> 
 <br>
@@ -119,7 +119,7 @@ https://english.jagran.com/india/coronavirus-pandemic-what-is-covid19-containmen
 https://www.thehindu.com/news/national/karnataka/officers-working-on-three-tasks-in-containment-zones/article31325197.ece
 <br>
 <br>
-<h2>Resources</h2><br>
+<h2>Roadmap</h2><br>
 <img src="/co_aid_solution_roadmap.png">  
 
 
