@@ -103,6 +103,17 @@ Co-Aid Application builds an ecosystem/network with combined use of IBM service 
 <li>HERE Location Services -  for maps, searching, and routing</li>
 </ul>
 </p>
+<br>
+<h2>Resources</h2><br>
+<b>Documents</b>
+https://www.mohfw.gov.in/pdf/ModelMicroplanforcontainmentoflocaltransmissionofCOVID19.pdf
+<br>
+<b>References</b>
+https://developer.ibm.com/callforcode/get-started/covid-19/community-cooperation/
+<br>
+<b>News articles</b>
+https://english.jagran.com/india/coronavirus-pandemic-what-is-covid19-containment-zone-how-is-it-created-and-what-restrictions-are-imposed-10010483
+https://www.thehindu.com/news/national/karnataka/officers-working-on-three-tasks-in-containment-zones/article31325197.ece
 
 
 
