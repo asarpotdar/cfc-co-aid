@@ -106,15 +106,20 @@ Co-Aid Application builds an ecosystem/network with combined use of IBM service 
 <br>
 <h2>Resources</h2><br>
 <b>Documents</b>
+<br>
 https://www.mohfw.gov.in/pdf/ModelMicroplanforcontainmentoflocaltransmissionofCOVID19.pdf
 <br>
 <b>References</b>
+<br>
 https://developer.ibm.com/callforcode/get-started/covid-19/community-cooperation/
 <br>
 <b>News articles</b>
+<br>
 https://english.jagran.com/india/coronavirus-pandemic-what-is-covid19-containment-zone-how-is-it-created-and-what-restrictions-are-imposed-10010483
 https://www.thehindu.com/news/national/karnataka/officers-working-on-three-tasks-in-containment-zones/article31325197.ece
-
-
+<br>
+<br>
+<h2>Resources</h2><br>
+<img src="/co_aid_solution_roadmap.png">  
 
 
